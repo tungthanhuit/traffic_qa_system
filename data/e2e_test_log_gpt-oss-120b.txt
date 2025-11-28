@@ -1,0 +1,3159 @@
+================================================================================
+END-TO-END SYSTEM TEST LOG
+Started at: 2025-11-28T19:04:32.293202
+================================================================================
+
+================================================================================
+STARTING END-TO-END SYSTEM TEST
+================================================================================
+
+Loaded 50 test cases
+
+
+================================================================================
+Progress: 1/50
+================================================================================
+
+================================================================================
+Testing TEST_001
+Question: Chạy xe ô tô mà không để ý biển báo cấm thì bị phạt bao nhiêu tiền?
+Expected Violation ID: D168-A6-C1-Pa
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C1-Pa (similarity: 0.8795)
+    Metadata: {"violation_id": "D168-A6-C1-Pa", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 2: D168-A7-C1-Pa (similarity: 0.8795)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pa"}
+  Rank 3: D168-A6-C9-Pb (similarity: 0.8687)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C9-Pb", "version": "168/2024"}
+  Rank 4: D168-A7-C7-Pc (similarity: 0.8687)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C7-Pc", "version": "168/2024"}
+  Rank 5: D168-A7-C3-Pđ (similarity: 0.8636)
+    Metadata: {"violation_id": "D168-A7-C3-Pđ", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 6: D168-A6-C1-Pb (similarity: 0.8617)
+    Metadata: {"violation_id": "D168-A6-C1-Pb", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 7: D168-A7-C2-Pk (similarity: 0.8614)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C2-Pk", "vehicle_type": "xe máy"}
+  Rank 8: D168-A7-C3-Pc (similarity: 0.8588)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C3-Pc"}
+  Rank 9: D168-A6-C1-Pd (similarity: 0.8560)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C1-Pd", "version": "168/2024"}
+  Rank 10: D168-A6-C3-Pk (similarity: 0.8559)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C3-Pk", "vehicle_type": "ô tô"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8795
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C1-Pa
+Match: ✓ CORRECT
+Response Time: 7.42s
+Answer: Hành vi không chấp hành hiệu lệnh, chỉ dẫn của biển báo cấm (hoặc vạch kẻ đường) khi lái ô tô là vi phạm quy định giao thông. Theo quy định hiện hành, người vi phạm sẽ bị phạt tiền từ **400.000 đồng đến 600.000 đồng**.
+
+- **Đối tượng áp dụng**: Tất cả các tài xế điều khiển ô tô trên mọi tuyến đường công cộng khi không tuân thủ biển báo cấm.
+- **Căn cứ pháp lý**: Khoản 1, điểm a, Điều 6, Nghị định 168/2024/NĐ‑CP quy định mức phạt cho hành vi “Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường”.
+- **Các hình phạt bổ sung**: Trong trường hợp này không có hình phạt bổ sung (như tước điểm, tạm giữ giấy phép lái xe) được quy định.
+
+Do đó, nếu bạn chạy xe ô tô mà không để ý biển báo cấm, bạn sẽ phải nộp tiền phạt trong khoảng trên và tuân thủ các yêu cầu của cơ quan quản lý giao thông để tránh các biện pháp xử lý tiếp theo.
+Citation: Điểm Điểm a, Khoản Khoản 1, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 400,000.0 - 600,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 1, Point Điểm a
+
+
+Intermediate Stats (after 1 tests):
+  Accuracy: 100.00% (1/1)
+  Retrieval Success: 1/1
+
+
+================================================================================
+Progress: 2/50
+================================================================================
+
+================================================================================
+Testing TEST_002
+Question: Lái xe máy không đội mũ bảo hiểm thì phạt bao nhiêu?
+Expected Violation ID: D168-A7-C2-Ph
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C2-Ph (similarity: 0.8807)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C2-Ph", "vehicle_type": "xe máy"}
+  Rank 2: D168-A7-C2-Pi (similarity: 0.8669)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C2-Pi"}
+  Rank 3: D168-A7-C2-Pk (similarity: 0.8583)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C2-Pk"}
+  Rank 4: D168-A6-C3-Pk (similarity: 0.8574)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C3-Pk"}
+  Rank 5: D168-A6-C1-Pa (similarity: 0.8472)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C1-Pa", "version": "168/2024"}
+  Rank 6: D168-A7-C1-Pa (similarity: 0.8472)
+    Metadata: {"violation_id": "D168-A7-C1-Pa", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 7: D168-A6-C5-Pq (similarity: 0.8464)
+    Metadata: {"violation_id": "D168-A6-C5-Pq", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 8: D168-A7-C4-Pd (similarity: 0.8461)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C4-Pd", "version": "168/2024"}
+  Rank 9: D168-A7-C3-Pđ (similarity: 0.8458)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pđ", "vehicle_type": "xe máy"}
+  Rank 10: D168-A7-C1-Pc (similarity: 0.8448)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C1-Pc", "vehicle_type": "xe máy"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8807
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C2-Ph
+Match: ✓ CORRECT
+Response Time: 7.30s
+Answer: Việc không đội mũ bảo hiểm khi điều khiển xe máy (hoặc đội mũ nhưng không cài quai đúng quy cách) là hành vi vi phạm quy định an toàn giao thông.  
+
+**Mức phạt:** phạt tiền từ 400.000 đến 600.000 đồng.  
+
+**Đối tượng áp dụng:** tất cả người lái xe máy tham gia giao thông trên đường bộ.  
+
+**Căn cứ pháp lý:** Điều 7, khoản 2, điểm h của Nghị định 168/2024/NĐ‑CP.  
+
+**Hình phạt bổ sung:** trong trường hợp này không có hình phạt bổ sung khác; tuy nhiên vi phạm có thể đồng thời bị trừ điểm trên bằng lái (theo quy định về điểm h).  
+
+Do đó, để tránh bị phạt và bảo vệ an toàn cho bản thân, người lái xe máy cần luôn đội mũ bảo hiểm chuẩn, đảm bảo quai được cài đúng cách khi tham gia giao thông.
+Citation: Điểm Điểm h, Khoản Khoản 2, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 400,000.0 - 600,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 2, Point Điểm h
+
+
+Intermediate Stats (after 2 tests):
+  Accuracy: 100.00% (2/2)
+  Retrieval Success: 2/2
+
+
+================================================================================
+Progress: 3/50
+================================================================================
+
+================================================================================
+Testing TEST_003
+Question: Đỗ xe ô tô giữa đường không bật đèn khẩn cấp bị phạt thế nào?
+Expected Violation ID: D168-A6-C1-Pc
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C1-Pb (similarity: 0.8729)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C1-Pb"}
+  Rank 2: D168-A6-C1-Pc (similarity: 0.8660)
+    Metadata: {"violation_id": "D168-A6-C1-Pc", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 3: D168-A6-C5-Pq (similarity: 0.8624)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C5-Pq"}
+  Rank 4: D168-A7-C2-Pk (similarity: 0.8596)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C2-Pk", "vehicle_type": "xe máy"}
+  Rank 5: D168-A6-C7-Pc (similarity: 0.8594)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C7-Pc", "vehicle_type": "ô tô"}
+  Rank 6: D168-A7-C3-Pc (similarity: 0.8591)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pc", "vehicle_type": "xe máy"}
+  Rank 7: D168-A7-C4-Pb (similarity: 0.8569)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C4-Pb", "version": "168/2024"}
+  Rank 8: D168-A6-C3-Pk (similarity: 0.8562)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pk", "version": "168/2024"}
+  Rank 9: D168-A6-C1-Pd (similarity: 0.8558)
+    Metadata: {"violation_id": "D168-A6-C1-Pd", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 10: D168-A6-C3-Pn (similarity: 0.8542)
+    Metadata: {"violation_id": "D168-A6-C3-Pn", "vehicle_type": "ô tô", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8660
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C1-Pb
+Match: ✗ INCORRECT
+Response Time: 7.85s
+Answer: Hành vi dừng, đỗ xe ô tô giữa đường mà không bật đèn khẩn cấp là vi phạm quy định về dừng, đỗ xe. Khi không có tín hiệu báo cho người điều khiển các phương tiện khác biết, việc này gây cản trở lưu thông và tiềm ẩn nguy cơ tai nạn.
+
+**Mức phạt:**  
+- Tiền phạt tiền hành từ 400.000 đồng đến 600.000 đồng.
+
+**Đối tượng áp dụng:**  
+- Tất cả các tài xế ô tô thực hiện hành vi dừng, đỗ xe sai quy định như trên.
+
+**Căn cứ pháp lý:**  
+- Khoản 1, Điểm b, Điều 6 của Nghị định số 168/2024/NĐ-CP quy định về việc xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ đối với hành vi dừng, đỗ xe không có tín hiệu báo.
+
+Hiện không có hình phạt bổ sung nào được quy định thêm cho hành vi này. Khi bị phát hiện, người vi phạm sẽ nhận được biên bản phạt và phải nộp tiền phạt trong thời hạn quy định. Nếu không nộp đúng hạn, sẽ có các biện pháp cưỡng chế tài chính theo quy định của pháp luật.
+Citation: Điểm Điểm b, Khoản Khoản 1, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 400,000.0 - 600,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 1, Point Điểm b
+
+
+Intermediate Stats (after 3 tests):
+  Accuracy: 66.67% (2/3)
+  Retrieval Success: 3/3
+
+
+================================================================================
+Progress: 4/50
+================================================================================
+
+================================================================================
+Testing TEST_004
+Question: Xe máy chạy vào đường cao tốc có bị phạt không, phạt bao nhiêu?
+Expected Violation ID: D168-A7-C7-Pb
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C7-Pb (similarity: 0.8631)
+    Metadata: {"violation_id": "D168-A6-C7-Pb", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 2: D168-A7-C7-Pb (similarity: 0.8544)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C7-Pb", "version": "168/2024"}
+  Rank 3: D168-A6-C5-Pd (similarity: 0.8505)
+    Metadata: {"violation_id": "D168-A6-C5-Pd", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 4: D168-A7-C2-Pk (similarity: 0.8473)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C2-Pk"}
+  Rank 5: D168-A7-C4-Pd (similarity: 0.8439)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C4-Pd"}
+  Rank 6: D168-A6-C1-Pa (similarity: 0.8429)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C1-Pa", "version": "168/2024"}
+  Rank 7: D168-A7-C1-Pa (similarity: 0.8429)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pa"}
+  Rank 8: D168-A6-C2-Pc (similarity: 0.8413)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C2-Pc", "vehicle_type": "ô tô"}
+  Rank 9: D168-A7-C1-Pđ (similarity: 0.8412)
+    Metadata: {"violation_id": "D168-A7-C1-Pđ", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 10: D168-A6-C3-Pk (similarity: 0.8396)
+    Metadata: {"violation_id": "D168-A6-C3-Pk", "version": "168/2024", "vehicle_type": "ô tô"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8544
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C7-Pb
+Match: ✓ CORRECT
+Response Time: 5.76s
+Answer: Việc điều khiển xe máy vào đường cao tốc (trừ các xe phục vụ công tác quản lý, bảo trì) là hành vi vi phạm quy định giao thông. Theo quy định, người vi phạm sẽ bị xử phạt hành chính với mức tiền phạt từ 4 .000.000 đồng đến 6 .000.000 đồng. Ngoài ra, giấy phép lái xe còn bị trừ 6 điểm.
+
+Căn cứ pháp lý: Khoản 7, Điều 7, điểm b của Nghị định 168/2024/NĐ‑CP quy định về việc cấm các loại phương tiện không phù hợp, trong đó có xe máy, lưu thông trên đường cao tốc. 
+
+Do vậy, nếu bạn lái xe máy vào đường cao tốc, sẽ phải nộp tiền phạt trong khoảng trên và mất 6 điểm bằng lái.
+Citation: Điểm Điểm b, Khoản Khoản 7, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 4,000,000.0 - 6,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 7, Point Điểm b
+
+
+Intermediate Stats (after 4 tests):
+  Accuracy: 75.00% (3/4)
+  Retrieval Success: 4/4
+
+
+================================================================================
+Progress: 5/50
+================================================================================
+
+================================================================================
+Testing TEST_005
+Question: Bấm còi ô tô lúc 11h đêm trong khu dân cư bị phạt bao nhiêu?
+Expected Violation ID: D168-A6-C1-Pđ
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C1-Pi (similarity: 0.8898)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pi"}
+  Rank 2: D168-A6-C1-Pđ (similarity: 0.8893)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C1-Pđ"}
+  Rank 3: D168-A6-C3-Pb (similarity: 0.8653)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C3-Pb", "vehicle_type": "ô tô"}
+  Rank 4: D168-A7-C9-Pk (similarity: 0.8622)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pk"}
+  Rank 5: D168-A7-C4-Pd (similarity: 0.8544)
+    Metadata: {"violation_id": "D168-A7-C4-Pd", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 6: D168-A7-C2-Pk (similarity: 0.8454)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pk"}
+  Rank 7: D168-A6-C3-Pn (similarity: 0.8444)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pn"}
+  Rank 8: D168-A7-C3-Ph (similarity: 0.8444)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C3-Ph"}
+  Rank 9: D168-A6-C1-Pa (similarity: 0.8431)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C1-Pa"}
+  Rank 10: D168-A7-C1-Pa (similarity: 0.8431)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pa"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8893
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C5-Pq
+Match: ✗ INCORRECT
+Response Time: 7.55s
+Answer: Hành vi “bấm còi ô tô lúc 11 h đêm trong khu dân cư” không nằm trong nội dung vi phạm mà tài liệu hiện có cung cấp. Tài liệu chỉ mô tả vi phạm “mở cửa xe, để cửa xe mở không bảo đảm an toàn” và quy định mức phạt tiền từ 4 triệu đến 6 triệu đồng, căn cứ vào Khoản 5, Điều 6 của Nghị định 168/2024/NĐ‑CP.
+
+Vì vậy, với câu hỏi về việc phạt khi bấm còi vào giờ khuya trong khu dân cư, tôi không có thông tin cụ thể về mức phạt, đối tượng áp dụng hay căn cứ pháp lý tương ứng trong dữ liệu hiện tại. Để biết chính xác mức phạt và quy định liên quan, bạn nên tham khảo Luật Giao thông đường bộ và các nghị định, quy định riêng về tiếng ồn và hành vi gây mất trật tự công cộng, hoặc liên hệ trực tiếp với cơ quan quản lý giao thông địa phương.
+Citation: Điểm Điểm q, Khoản Khoản 5, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 4,000,000.0 - 6,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 5, Point Điểm q
+
+
+Intermediate Stats (after 5 tests):
+  Accuracy: 60.00% (3/5)
+  Retrieval Success: 5/5
+
+
+================================================================================
+Progress: 6/50
+================================================================================
+
+================================================================================
+Testing TEST_006
+Question: Chở 3 người trên xe máy có bị phạt không?
+Expected Violation ID: D168-A7-C3-Pb
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C2-Pb (similarity: 0.9098)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C2-Pb", "vehicle_type": "ô tô"}
+  Rank 2: D168-A7-C3-Pb (similarity: 0.8853)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pb", "vehicle_type": "xe máy"}
+  Rank 3: D168-A7-C9-Pb (similarity: 0.8738)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pb", "version": "168/2024"}
+  Rank 4: D168-A7-C3-Pk (similarity: 0.8670)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C3-Pk"}
+  Rank 5: D168-A6-C7-Pa (similarity: 0.8668)
+    Metadata: {"violation_id": "D168-A6-C7-Pa", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 6: D168-A7-C3-Pđ (similarity: 0.8655)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pđ", "vehicle_type": "xe máy"}
+  Rank 7: D168-A7-C8-Pa (similarity: 0.8620)
+    Metadata: {"violation_id": "D168-A7-C8-Pa", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 8: D168-A7-C2-Pk (similarity: 0.8601)
+    Metadata: {"violation_id": "D168-A7-C2-Pk", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 9: D168-A6-C3-Pi (similarity: 0.8589)
+    Metadata: {"violation_id": "D168-A6-C3-Pi", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 10: D168-A7-C9-Pi (similarity: 0.8564)
+    Metadata: {"violation_id": "D168-A7-C9-Pi", "version": "168/2024", "vehicle_type": "xe máy"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8853
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C3-Pb
+Match: ✓ CORRECT
+Response Time: 5.18s
+Answer: Việc chở ba người trở lên trên một chiếc xe máy là hành vi vi phạm quy định giao thông. Theo quy định hiện hành, người điều khiển xe sẽ bị phạt tiền từ 600.000 đ đến 800.000 đồng và đồng thời bị trừ 2 điểm trên giấy phép lái xe. Cơ sở pháp lý của hình phạt này được nêu tại Điều 7, Khoản 3, điểm b của Nghị định 168/2024/NĐ‑CP. Hình phạt tiền và việc trừ điểm áp dụng cho tất cả người điều khiển xe máy vi phạm quy định này.
+Citation: Điểm Điểm b, Khoản Khoản 3, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 600,000.0 - 800,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 3, Point Điểm b
+
+
+Intermediate Stats (after 6 tests):
+  Accuracy: 66.67% (4/6)
+  Retrieval Success: 6/6
+
+
+================================================================================
+Progress: 7/50
+================================================================================
+
+================================================================================
+Testing TEST_007
+Question: Chuyển làn ô tô mà không bật xi-nhan thì phạt bao nhiêu?
+Expected Violation ID: D168-A6-C2-Pa
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C1-Pe (similarity: 0.8475)
+    Metadata: {"violation_id": "D168-A7-C1-Pe", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 2: D168-A6-C4-Pa (similarity: 0.8473)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C4-Pa", "version": "168/2024"}
+  Rank 3: D168-A7-C2-Pk (similarity: 0.8463)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pk"}
+  Rank 4: D168-A6-C2-Pa (similarity: 0.8455)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C2-Pa", "vehicle_type": "ô tô"}
+  Rank 5: D168-A6-C1-Pb (similarity: 0.8438)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C1-Pb"}
+  Rank 6: D168-A6-C5-Pg (similarity: 0.8429)
+    Metadata: {"violation_id": "D168-A6-C5-Pg", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 7: D168-A7-C2-Pc (similarity: 0.8419)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C2-Pc"}
+  Rank 8: D168-A6-C3-Pp (similarity: 0.8417)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pp", "version": "168/2024"}
+  Rank 9: D168-A6-C4-Pd (similarity: 0.8416)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C4-Pd"}
+  Rank 10: D168-A6-C5-Pq (similarity: 0.8398)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C5-Pq"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 4 with similarity 0.8455
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C2-Pa
+Match: ✓ CORRECT
+Response Time: 6.32s
+Answer: Việc chuyển làn ô tô mà không bật tín hiệu xi‑nhan là hành vi vi phạm quy định “chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước, hoặc chuyển sang làn không liền kề”.  
+
+**Mức phạt:** tiền phạt từ 600.000 đ đến 800.000 đồng, tùy theo mức độ vi phạm và quyết định của cơ quan chức năng.  
+
+**Đối tượng áp dụng:** tất cả các xe ô tô khi thực hiện hành vi trên trên đường công cộng.  
+
+**Căn cứ pháp lý:** Khoản 2, Điểm a, Điều 6, Nghị định 168/2024/NĐ‑CP quy định xử phạt hành vi “chuyển làn sai quy định”.  
+
+Hiện không có hình phạt bổ sung nào được quy định cho hành vi này. Vì vậy, khi cần thay đổi làn đường, tài xế phải bật tín hiệu xi‑nhan và chắc chắn rằng làn muốn chuyển là làn liền kề, để tránh bị xử phạt.
+Citation: Điểm Điểm a, Khoản Khoản 2, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 600,000.0 - 800,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 2, Point Điểm a
+
+
+Intermediate Stats (after 7 tests):
+  Accuracy: 71.43% (5/7)
+  Retrieval Success: 7/7
+
+
+================================================================================
+Progress: 8/50
+================================================================================
+
+================================================================================
+Testing TEST_008
+Question: Xe máy vượt đèn đỏ bị phạt bao nhiêu tiền hiện nay 2025?
+Expected Violation ID: D168-A7-C7-Pc
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C9-Pb (similarity: 0.8759)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C9-Pb"}
+  Rank 2: D168-A7-C7-Pc (similarity: 0.8759)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C7-Pc"}
+  Rank 3: D168-A7-C3-Pđ (similarity: 0.8463)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C3-Pđ"}
+  Rank 4: D168-A7-C3-Pc (similarity: 0.8455)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pc", "vehicle_type": "xe máy"}
+  Rank 5: D168-A6-C2-Pb (similarity: 0.8443)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C2-Pb", "version": "168/2024"}
+  Rank 6: D168-A6-C1-Pa (similarity: 0.8432)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C1-Pa"}
+  Rank 7: D168-A7-C1-Pa (similarity: 0.8432)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pa"}
+  Rank 8: D168-A7-C1-Pđ (similarity: 0.8424)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pđ"}
+  Rank 9: D168-A6-C7-Pa (similarity: 0.8412)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C7-Pa"}
+  Rank 10: D168-A7-C8-Pa (similarity: 0.8386)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C8-Pa"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8759
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C7-Pc
+Match: ✓ CORRECT
+Response Time: 6.59s
+Answer: Việc không chấp hành hiệu lệnh của đèn tín hiệu giao thông (vượt đèn đỏ hoặc đèn vàng) trên xe máy được coi là hành vi vi phạm nghiêm trọng. Theo Nghị định 168/2024/NĐ‑CP, Điều 7, Khoản 7, điểm c, người vi phạm sẽ phải chịu:
+
+- **Mức phạt tiền:** từ 4 triệu đồng đến 6 triệu đồng, tùy vào mức độ vi phạm và quyết định của cơ quan thi hành pháp luật.  
+- **Hình phạt bổ sung:** trừ 4 điểm trong giấy phép lái xe.
+
+Áp dụng cho tất cả các tài xế điều khiển xe máy vi phạm quy định này. Việc chấp hành đúng tín hiệu đèn giao thông không chỉ tránh được các hình phạt tài chính và trừ điểm, mà còn góp phần bảo đảm an toàn cho bản thân và những người tham gia giao thông khác.
+Citation: Điểm Điểm c, Khoản Khoản 7, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 4,000,000.0 - 6,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 7, Point Điểm c
+
+
+Intermediate Stats (after 8 tests):
+  Accuracy: 75.00% (6/8)
+  Retrieval Success: 8/8
+
+
+================================================================================
+Progress: 9/50
+================================================================================
+
+================================================================================
+Testing TEST_009
+Question: Đỗ xe ô tô sát vỉa hè quá 25cm bị phạt không?
+Expected Violation ID: D168-A6-C3-Pe
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C3-Pe (similarity: 0.8653)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pe", "version": "168/2024"}
+  Rank 2: D168-A6-C3-Pđ (similarity: 0.8612)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pđ", "version": "168/2024"}
+  Rank 3: D168-A6-C2-Pđ (similarity: 0.8586)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C2-Pđ", "version": "168/2024"}
+  Rank 4: D168-A7-C3-Pc (similarity: 0.8576)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pc", "vehicle_type": "xe máy"}
+  Rank 5: D168-A7-C2-Pa (similarity: 0.8572)
+    Metadata: {"violation_id": "D168-A7-C2-Pa", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 6: D168-A6-C2-Pd (similarity: 0.8528)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C2-Pd"}
+  Rank 7: D168-A7-C2-Pd (similarity: 0.8506)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C2-Pd"}
+  Rank 8: D168-A7-C3-Pb (similarity: 0.8495)
+    Metadata: {"violation_id": "D168-A7-C3-Pb", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 9: D168-A7-C4-Pb (similarity: 0.8490)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C4-Pb"}
+  Rank 10: D168-A7-C3-Pg (similarity: 0.8482)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pg", "vehicle_type": "xe máy"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8653
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C2-Pđ
+Match: ✗ INCORRECT
+Response Time: 8.78s
+Answer: Việc đỗ ô tô sát vỉa hè, bánh xe gần nhất cách lề đường hơn 0,25 m được coi là **dừng xe, đỗ xe sai quy định**. Hành vi này vi phạm quy định “dừng xe không sát theo lề đường, via hè phía bên phải theo chiều đi hoặc bánh xe gần nhất cách lề đường, via hè quá 0,25 m” (Điểm đ, Khoản 2, Điều 6, Nghị định 168/2024/NĐ‑CP).
+
+**Mức phạt**: tiền phạt tiền hành vi này từ **600.000 đồng đến 800.000 đồng**.  
+**Đối tượng áp dụng**: tất cả các loại xe ô tô khi thực hiện hành vi trên.
+
+Hiện không có hình phạt bổ sung nào được quy định cho vi phạm này (không có điểm phạt, tước bằng lái, hoặc tạm giữ xe). Khi bị phát hiện, người lái xe sẽ nhận được quyết định phạt tiền theo mức trên và phải nộp trong thời hạn quy định.
+
+Vì vậy, nếu xe của bạn đỗ cách vỉa hè hơn 25 cm, bạn sẽ bị xử phạt tiền từ 600.000 – 800.000 đồng theo quy định hiện hành. Để tránh vi phạm, hãy luôn đỗ xe sát lề đường hoặc vào các vị trí được chỉ định, không vượt quá khoảng cách 0,25 m so với vỉa hè.
+Citation: Điểm Điểm đ, Khoản Khoản 2, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 600,000.0 - 800,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 2, Point Điểm đ
+
+
+Intermediate Stats (after 9 tests):
+  Accuracy: 66.67% (6/9)
+  Retrieval Success: 9/9
+
+
+================================================================================
+Progress: 10/50
+================================================================================
+
+================================================================================
+Testing TEST_010
+Question: Lái xe máy có nồng độ cồn chút xíu thôi có bị phạt nặng không?
+Expected Violation ID: D168-A7-C6-Pa
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C6-Pc (similarity: 0.8843)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C6-Pc", "version": "168/2024"}
+  Rank 2: D168-A7-C6-Pa (similarity: 0.8843)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C6-Pa", "vehicle_type": "xe máy"}
+  Rank 3: D168-A6-C9-Pa (similarity: 0.8808)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C9-Pa"}
+  Rank 4: D168-A7-C8-Pb (similarity: 0.8801)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C8-Pb"}
+  Rank 5: D168-A6-C11-Pa (similarity: 0.8753)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C11-Pa", "version": "168/2024"}
+  Rank 6: D168-A7-C9-Pd (similarity: 0.8753)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C9-Pd"}
+  Rank 7: D168-A6-C11-Pb (similarity: 0.8669)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C11-Pb"}
+  Rank 8: D168-A7-C9-Pđ (similarity: 0.8669)
+    Metadata: {"violation_id": "D168-A7-C9-Pđ", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 9: D168-A6-C7-Pa (similarity: 0.8574)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C7-Pa"}
+  Rank 10: D168-A7-C8-Pa (similarity: 0.8548)
+    Metadata: {"violation_id": "D168-A7-C8-Pa", "vehicle_type": "xe máy", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8843
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C6-Pa
+Match: ✓ CORRECT
+Response Time: 7.09s
+Answer: Việc điều khiển xe máy khi trong máu hoặc hơi thở có nồng độ cồn nhưng chưa vượt quá 50 mg/100 ml (hoặc 0,25 mg/1 lít khí thở) vẫn là hành vi vi phạm pháp luật giao thông.  
+
+**Hình phạt áp dụng**  
+- **Phạt tiền:** từ 2 triệu đồng đến 3 triệu đồng.  
+- **Trừ điểm bằng lái:** 4 điểm.
+
+**Đối tượng áp dụng**  
+- Người lái xe máy có nồng độ cồn ở mức trên, dù chỉ “chút xíu” nhưng vẫn vượt ngưỡng cho phép của pháp luật.
+
+**Căn cứ pháp lý**  
+- Khoản 6, Điều 7, điểm a của Nghị định 168/2024/NĐ‑CP quy định mức phạt cho hành vi “vi phạm nồng độ cồn” khi nồng độ cồn trong máu hoặc hơi thở không vượt quá các giới hạn trên.
+
+Vì vậy, ngay cả khi nồng độ cồn chỉ ở mức thấp, người lái xe máy vẫn sẽ bị xử phạt tiền và bị trừ 4 điểm bằng lái theo quy định hiện hành.
+Citation: Điểm Điểm a, Khoản Khoản 6, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 2,000,000.0 - 3,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 6, Point Điểm a
+
+
+Intermediate Stats (after 10 tests):
+  Accuracy: 70.00% (7/10)
+  Retrieval Success: 10/10
+
+
+================================================================================
+Progress: 11/50
+================================================================================
+
+================================================================================
+Testing TEST_011
+Question: Ô tô chạy quá tốc độ 7km/h thì phạt bao nhiêu?
+Expected Violation ID: D168-A6-C3-Pa
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C8-Pa (similarity: 0.8880)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C8-Pa", "vehicle_type": "xe máy"}
+  Rank 2: D168-A6-C7-Pa (similarity: 0.8875)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C7-Pa"}
+  Rank 3: D168-A6-C5-Pđ (similarity: 0.8833)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C5-Pđ", "vehicle_type": "ô tô"}
+  Rank 4: D168-A7-C4-Pa (similarity: 0.8833)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C4-Pa", "version": "168/2024"}
+  Rank 5: D168-A6-C6-Pa (similarity: 0.8826)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C6-Pa"}
+  Rank 6: D168-A6-C3-Pa (similarity: 0.8747)
+    Metadata: {"violation_id": "D168-A6-C3-Pa", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 7: D168-A7-C2-Pb (similarity: 0.8747)
+    Metadata: {"violation_id": "D168-A7-C2-Pb", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 8: D168-A6-C2-Pb (similarity: 0.8727)
+    Metadata: {"violation_id": "D168-A6-C2-Pb", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 9: D168-A7-C9-Pb (similarity: 0.8723)
+    Metadata: {"violation_id": "D168-A7-C9-Pb", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 10: D168-A7-C2-Pk (similarity: 0.8676)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C2-Pk", "vehicle_type": "xe máy"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 6 with similarity 0.8747
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C6-Pa
+Match: ✗ INCORRECT
+Response Time: 8.38s
+Answer: Việc lái ô tô vượt quá tốc độ quy định **trên 20 km/h đến 35 km/h** sẽ bị xử phạt hành chính theo Nghị định 168/2024/NĐ‑CP, Điều 6, Khoản 6, Điểm a. Mức tiền phạt từ **6 triệu đồng đến 8 triệu đồng** và người lái sẽ bị **trừ 4 điểm** trên giấy phép lái xe.
+
+Tuy nhiên, nếu tốc độ vượt chỉ **7 km/h** (tức là chưa tới mức trên 20 km/h), thì mức phạt sẽ thuộc nhóm vi phạm “vượt quá tốc độ quy định dưới 20 km/h”. Quy định hiện hành quy định mức phạt cho nhóm này thường là **phạt tiền từ 500.000 đồng đến 1.000.000 đồng** và **trừ 1‑2 điểm** GPLX, nhưng chi tiết cụ thể không nằm trong thông tin mà chúng tôi đang tham khảo.
+
+Vì vậy, đối với trường hợp vượt 7 km/h, người lái sẽ chịu một mức phạt nhẹ hơn so với nhóm trên 20 km/h, còn mức phạt nặng (6‑8 triệu đồng và 4 điểm) chỉ áp dụng khi tốc độ vượt từ 20 km/h đến 35 km/h. Nếu cần biết chính xác mức phạt cho mức vượt dưới 20 km/h, bạn nên tham khảo trực tiếp quy định của Nghị định 168/2024/NĐ‑CP hoặc hỏi cơ quan quản lý giao thông địa phương.
+Citation: Điểm Điểm a, Khoản Khoản 6, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 6,000,000.0 - 8,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 6, Point Điểm a
+
+
+Intermediate Stats (after 11 tests):
+  Accuracy: 63.64% (7/11)
+  Retrieval Success: 11/11
+
+
+================================================================================
+Progress: 12/50
+================================================================================
+
+================================================================================
+Testing TEST_012
+Question: Xe máy lạng lách đánh võng trên đường bị phạt thế nào?
+Expected Violation ID: D168-A7-C9-Pa
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C12 (similarity: 0.8954)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C12", "version": "168/2024"}
+  Rank 2: D168-A7-C9-Pa (similarity: 0.8899)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C9-Pa", "vehicle_type": "xe máy"}
+  Rank 3: D168-A6-C13 (similarity: 0.8582)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C13", "vehicle_type": "ô tô"}
+  Rank 4: D168-A7-C2-Pk (similarity: 0.8374)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C2-Pk", "vehicle_type": "xe máy"}
+  Rank 5: D168-A7-C4-Pd (similarity: 0.8351)
+    Metadata: {"violation_id": "D168-A7-C4-Pd", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 6: D168-A6-C1-Pa (similarity: 0.8347)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C1-Pa"}
+  Rank 7: D168-A7-C1-Pa (similarity: 0.8347)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pa"}
+  Rank 8: D168-A7-C3-Pđ (similarity: 0.8309)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C3-Pđ"}
+  Rank 9: D168-A6-C9-Pb (similarity: 0.8302)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C9-Pb", "vehicle_type": "ô tô"}
+  Rank 10: D168-A7-C7-Pc (similarity: 0.8302)
+    Metadata: {"violation_id": "D168-A7-C7-Pc", "version": "168/2024", "vehicle_type": "xe máy"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8899
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C9-Pa
+Match: ✓ CORRECT
+Response Time: 6.60s
+Answer: Hành vi **lạng lách, đánh võng** trên đường bộ là việc người điều khiển xe máy di chuyển không ổn định, vòng quanh, thay đổi làn đường một cách bất thường, đồng thời dùng chân hoặc vật dụng chạm, quệt xuống mặt đường khi xe đang chạy. Đây là hành vi nguy hiểm, làm giảm khả năng kiểm soát phương tiện và gây nguy hiểm cho người tham gia giao thông khác.
+
+**Mức phạt** dành cho người vi phạm:
+- **Phạt tiền** từ **8 triệu đồng** đến **10 triệu đồng**.
+- **Tước quyền sử dụng giấy phép lái xe** trong khoảng **10 – 12 tháng**.
+
+**Hình phạt bổ sung** (áp dụng tùy trường hợp):
+- **Tịch thu phương tiện** nếu người vi phạm là **tái phạm** hành vi lạng lách, đánh võng.
+
+**Đối tượng áp dụng**: Tất cả người điều khiển xe máy thực hiện hành vi trên khi tham gia giao thông trên đường công cộng.
+
+**Căn cứ pháp lý**: 
+- **Nghị định 168/2024/NĐ‑CP**, Điều 7, Khoản 9, điểm a.
+
+Tóm lại, nếu bạn lái xe máy mà có hành vi lạng lách, đánh võng hoặc dùng chân, vật dụng quệt xuống đường khi đang di chuyển, bạn sẽ bị phạt tiền 8‑10 triệu đồng, mất giấy phép lái xe 10‑12 tháng và trong trường hợp tái phạm còn có thể bị tịch thu xe. Hãy luôn lái xe đúng quy tắc, duy trì lái thẳng, ổn định để bảo đảm an toàn cho bản thân và mọi người trên đường.
+Citation: Điểm Điểm a, Khoản Khoản 9, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 8,000,000.0 - 10,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 9, Point Điểm a
+
+
+Intermediate Stats (after 12 tests):
+  Accuracy: 66.67% (8/12)
+  Retrieval Success: 12/12
+
+
+================================================================================
+Progress: 13/50
+================================================================================
+
+================================================================================
+Testing TEST_013
+Question: Không thắt dây an toàn khi lái ô tô bị phạt bao nhiêu?
+Expected Violation ID: D168-A6-C3-Pk
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C3-Pk (similarity: 0.9106)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C3-Pk"}
+  Rank 2: D168-A6-C3-Pl (similarity: 0.8987)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pl", "version": "168/2024"}
+  Rank 3: D168-A7-C2-Ph (similarity: 0.8522)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Ph", "version": "168/2024"}
+  Rank 4: D168-A6-C5-Pq (similarity: 0.8516)
+    Metadata: {"violation_id": "D168-A6-C5-Pq", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 5: D168-A6-C4-Pc (similarity: 0.8513)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C4-Pc", "version": "168/2024"}
+  Rank 6: D168-A7-C4-Pđ (similarity: 0.8490)
+    Metadata: {"violation_id": "D168-A7-C4-Pđ", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 7: D168-A7-C3-Pi (similarity: 0.8468)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pi", "vehicle_type": "xe máy"}
+  Rank 8: D168-A7-C2-Pi (similarity: 0.8459)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C2-Pi"}
+  Rank 9: D168-A6-C6-Pc (similarity: 0.8456)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C6-Pc"}
+  Rank 10: D168-A7-C6-Pa (similarity: 0.8456)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C6-Pa", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.9106
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C3-Pk
+Match: ✓ CORRECT
+Response Time: 6.33s
+Answer: Việc không thắt dây đai an toàn khi điều khiển ô tô trên đường là hành vi vi phạm quy định giao thông. Theo quy định hiện hành, người lái xe ô tô không thắt dây an toàn sẽ bị phạt tiền từ **800.000 đ** đến **1.000.000 đ**. 
+
+Hình phạt này áp dụng cho tất cả các tài xế, hành khách trên xe ô tô khi tham gia giao thông trên đường công cộng. Cơ sở pháp lý quy định hành vi này nằm trong **Điều 6, khoản 3, điểm “k” của Nghị định 168/2024/NĐ‑CP**. 
+
+Hiện không có hình phạt bổ sung nào được quy định cho vi phạm này. Khi bị phát hiện, người vi phạm sẽ nhận được quyết định phạt tiền theo mức quy định trên và phải thực hiện nộp tiền trong thời hạn quy định để tránh các biện pháp cưỡng chế. Việc luôn thắt dây an toàn không chỉ giúp tránh bị phạt mà còn bảo vệ tính mạng và sức khỏe của bản thân và hành khách.
+Citation: Điểm Điểm k, Khoản Khoản 3, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 800,000.0 - 1,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 3, Point Điểm k
+
+
+Intermediate Stats (after 13 tests):
+  Accuracy: 69.23% (9/13)
+  Retrieval Success: 13/13
+
+
+================================================================================
+Progress: 14/50
+================================================================================
+
+================================================================================
+Testing TEST_014
+Question: Rú ga nẹt pô xe máy trong khu dân cư lúc nửa đêm thì sao?
+Expected Violation ID: D168-A7-C9-Pk
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Pk (similarity: 0.8406)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pk"}
+  Rank 2: D168-A7-C2-Pk (similarity: 0.8314)
+    Metadata: {"violation_id": "D168-A7-C2-Pk", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 3: D168-A7-C4-Pd (similarity: 0.8283)
+    Metadata: {"violation_id": "D168-A7-C4-Pd", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 4: D168-A7-C3-Pg (similarity: 0.8270)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C3-Pg"}
+  Rank 5: D168-A7-C1-Pc (similarity: 0.8262)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C1-Pc", "vehicle_type": "xe máy"}
+  Rank 6: D168-A7-C3-Pc (similarity: 0.8198)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pc", "vehicle_type": "xe máy"}
+  Rank 7: D168-A6-C7-Pa (similarity: 0.8183)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C7-Pa", "version": "168/2024"}
+  Rank 8: D168-A7-C8-Pa (similarity: 0.8170)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C8-Pa"}
+  Rank 9: D168-A7-C1-Pđ (similarity: 0.8158)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pđ"}
+  Rank 10: D168-A6-C1-Pd (similarity: 0.8153)
+    Metadata: {"violation_id": "D168-A6-C1-Pd", "version": "168/2024", "vehicle_type": "ô tô"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8406
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C3-Pc
+Match: ✗ INCORRECT
+Response Time: 7.73s
+Answer: Hành vi dừng xe, đỗ xe máy trên cầu trong khu dân cư, dù thực hiện vào nửa đêm, vẫn thuộc vi phạm “Dừng xe, đỗ xe sai quy định”. Theo Khoản 3, Điểm c của Điều 7, Nghị định 168/2024/NĐ‑CP, hành vi này bị xử phạt hành chính tiền phạt từ 600.000 đến 800.000 đồng. Phạm vi áp dụng là tất cả các loại phương tiện cơ giới, trong đó có xe máy, khi dừng, đỗ trên các công trình cầu, hầm, đường bộ không cho phép, kể cả trong khu dân cư và bất kể thời gian thực hiện. 
+
+Vì vi phạm không gây hậu quả nghiêm trọng (chẳng hạn gây cản trở giao thông hay tai nạn), không có hình phạt bổ sung như tước giấy phép lái xe hay tạm giữ phương tiện. Người vi phạm chỉ cần nộp tiền phạt trong thời hạn quy định; nếu không nộp đúng hạn sẽ phải chịu lãi phạt và có thể bị tịch thu phương tiện theo quy định của pháp luật.
+Citation: Điểm Điểm c, Khoản Khoản 3, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 600,000.0 - 800,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 3, Point Điểm c
+
+
+Intermediate Stats (after 14 tests):
+  Accuracy: 64.29% (9/14)
+  Retrieval Success: 14/14
+
+
+================================================================================
+Progress: 15/50
+================================================================================
+
+================================================================================
+Testing TEST_015
+Question: Đỗ xe ô tô che khuất đèn giao thông bị phạt mức nào?
+Expected Violation ID: D168-A6-C3-Pđ
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C3-Pc (similarity: 0.8661)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pc", "vehicle_type": "xe máy"}
+  Rank 2: D168-A6-C1-Pb (similarity: 0.8630)
+    Metadata: {"violation_id": "D168-A6-C1-Pb", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 3: D168-A6-C1-Pc (similarity: 0.8567)
+    Metadata: {"violation_id": "D168-A6-C1-Pc", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 4: D168-A6-C3-Pđ (similarity: 0.8542)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pđ", "version": "168/2024"}
+  Rank 5: D168-A7-C4-Pb (similarity: 0.8532)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C4-Pb", "version": "168/2024"}
+  Rank 6: D168-A7-C3-Pg (similarity: 0.8527)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C3-Pg", "version": "168/2024"}
+  Rank 7: D168-A6-C5-Pk (similarity: 0.8518)
+    Metadata: {"violation_id": "D168-A6-C5-Pk", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 8: D168-A6-C9-Pb (similarity: 0.8500)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C9-Pb", "vehicle_type": "ô tô"}
+  Rank 9: D168-A7-C7-Pc (similarity: 0.8500)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C7-Pc", "version": "168/2024"}
+  Rank 10: D168-A7-C2-Pk (similarity: 0.8480)
+    Metadata: {"violation_id": "D168-A7-C2-Pk", "vehicle_type": "xe máy", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 4 with similarity 0.8542
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C3-Pđ
+Match: ✓ CORRECT
+Response Time: 7.97s
+Answer: Việc dừng, đỗ xe ô tô che khuất biển báo hiệu đường bộ hoặc đèn tín hiệu giao thông thuộc hành vi **“Dừng xe, đỗ xe sai quy định”**.  
+
+**Hành vi vi phạm**  
+- Đỗ xe ở vị trí gây cản trở tầm nhìn của đèn tín hiệu giao thông (ví dụ: gần ngã rẽ, trong phạm vi 5 m tính từ mép giao lộ, hoặc gần các điểm thu/đưa khách, cổng, cống,…).  
+- Khi đèn giao thông bị che khuất, các phương tiện khác không thể nhận được chỉ dẫn an toàn, làm tăng nguy cơ tai nạn và gây gián đoạn lưu thông.
+
+**Mức phạt**  
+- Phạt tiền từ **800.000 đồng đến 1.000.000 đồng** cho mỗi lần vi phạm.  
+
+**Đối tượng áp dụng**  
+- Chủ phương tiện ô tô (cả cá nhân và doanh nghiệp) khi thực hiện hành vi trên.
+
+**Căn cứ pháp lý**  
+- Khoản 3, Điều 6, điểm “đ” của Nghị định **168/2024/NĐ‑CP** quy định về việc dừng, đỗ xe tại các vị trí cấm, trong đó có việc che khuất biển báo hiệu đường bộ và đèn tín hiệu giao thông.
+
+**Hình phạt bổ sung**  
+- Không có hình phạt bổ sung nào được quy định cho hành vi này.
+
+Do vậy, nếu xe ô tô của bạn bị phát hiện đỗ che khuất đèn giao thông, bạn sẽ phải nộp phạt tiền trong khoảng 800.000 – 1.000.000 đồng theo quy định trên. Hãy luôn chú ý đỗ xe ở những vị trí không gây cản trở tầm nhìn của các thiết bị điều khiển giao thông để đảm bảo an toàn và tránh vi phạm.
+Citation: Điểm Điểm đ, Khoản Khoản 3, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 800,000.0 - 1,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 3, Point Điểm đ
+
+
+Intermediate Stats (after 15 tests):
+  Accuracy: 66.67% (10/15)
+  Retrieval Success: 15/15
+
+
+================================================================================
+Progress: 16/50
+================================================================================
+
+================================================================================
+Testing TEST_016
+Question: Lái xe máy mà trong người có ma túy thì bị phạt ra sao?
+Expected Violation ID: D168-A7-C9-Pe
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Pe (similarity: 0.8757)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pe"}
+  Rank 2: D168-A6-C11-Pc (similarity: 0.8736)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C11-Pc"}
+  Rank 3: D168-A7-C2-Pk (similarity: 0.8422)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C2-Pk"}
+  Rank 4: D168-A6-C7-Pa (similarity: 0.8414)
+    Metadata: {"violation_id": "D168-A6-C7-Pa", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 5: D168-A6-C6-Pc (similarity: 0.8408)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C6-Pc"}
+  Rank 6: D168-A7-C6-Pa (similarity: 0.8408)
+    Metadata: {"violation_id": "D168-A7-C6-Pa", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 7: D168-A7-C4-Pd (similarity: 0.8402)
+    Metadata: {"violation_id": "D168-A7-C4-Pd", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 8: D168-A6-C9-Pa (similarity: 0.8379)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C9-Pa"}
+  Rank 9: D168-A7-C8-Pa (similarity: 0.8352)
+    Metadata: {"violation_id": "D168-A7-C8-Pa", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 10: D168-A7-C9-Pg (similarity: 0.8348)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C9-Pg"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8757
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C9-Pe
+Match: ✓ CORRECT
+Response Time: 6.42s
+Answer: Việc điều khiển xe máy trên đường khi trong cơ thể có chất ma túy hoặc chất kích thích bị cấm theo quy định là hành vi vi phạm pháp luật giao thông.  
+
+**Mức phạt tiền**: từ 8 000 000 đồng đến 10 000 000 đồng.  
+
+**Hình phạt bổ sung**: người vi phạm sẽ bị tước quyền sử dụng giấy phép lái xe trong thời gian từ 22 tháng đến 24 tháng.  
+
+**Căn cứ pháp lý**: khoản 9, điểm e của Điều 7, Nghị định 168/2024/NĐ‑CP.  
+
+Áp dụng cho tất cả người lái xe máy có phát hiện chất ma túy trong cơ thể khi tham gia giao thông. Nếu bị bắt giữ, người vi phạm sẽ phải nộp tiền phạt theo mức trên và chấp hành quyết định tước giấy phép lái xe trong thời gian quy định.
+Citation: Điểm Điểm e, Khoản Khoản 9, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 8,000,000.0 - 10,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 9, Point Điểm e
+
+
+Intermediate Stats (after 16 tests):
+  Accuracy: 68.75% (11/16)
+  Retrieval Success: 16/16
+
+
+================================================================================
+Progress: 17/50
+================================================================================
+
+================================================================================
+Testing TEST_017
+Question: Chở người ngồi sau ôm eo người lái có bị phạt không?
+Expected Violation ID: D168-A6-C3-Pl
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Ph (similarity: 0.8789)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Ph", "version": "168/2024"}
+  Rank 2: D168-A6-C2-Pb (similarity: 0.8694)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C2-Pb", "vehicle_type": "ô tô"}
+  Rank 3: D168-A7-C3-Pb (similarity: 0.8681)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pb", "vehicle_type": "xe máy"}
+  Rank 4: D168-A7-C1-Pd (similarity: 0.8651)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pd", "version": "168/2024"}
+  Rank 5: D168-A7-C3-Pe (similarity: 0.8576)
+    Metadata: {"violation_id": "D168-A7-C3-Pe", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 6: D168-A6-C3-Pi (similarity: 0.8573)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C3-Pi", "vehicle_type": "ô tô"}
+  Rank 7: D168-A6-C3-Pl (similarity: 0.8562)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C3-Pl"}
+  Rank 8: D168-A7-C2-Pg (similarity: 0.8552)
+    Metadata: {"violation_id": "D168-A7-C2-Pg", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 9: D168-A6-C5-Pp (similarity: 0.8479)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C5-Pp", "vehicle_type": "ô tô"}
+  Rank 10: D168-A7-C3-Pg (similarity: 0.8428)
+    Metadata: {"violation_id": "D168-A7-C3-Pg", "version": "168/2024", "vehicle_type": "xe máy"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 7 with similarity 0.8562
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C3-Pl
+Match: ✓ CORRECT
+Response Time: 9.65s
+Answer: Việc người ngồi sau ôm eo người lái mà không thắt dây an toàn là hành vi vi phạm quy định giao thông. Khi xe ô tô có trang bị dây đai an toàn, mọi người ngồi trên xe, kể cả hành khách phía sau, đều phải thắt dây đai an toàn trong suốt quá trình di chuyển. Nếu không thắt, người đó và cả người lái xe sẽ bị xử phạt hành chính.
+
+**Mức phạt**: tiền phạt từ 800.000 đồng đến 1.000.000 đồng và bị trừ 1 điểm trên bằng lái (điểm “l”).
+
+**Đối tượng áp dụng**: tất cả các hành khách ngồi trên xe ô tô có trang bị dây đai an toàn, bao gồm cả người ngồi phía sau.
+
+**Căn cứ pháp lý**: Khoản 3, Điều 6, Nghị định 168/2024/NĐ‑CP quy định “Chở người trên xe ô tô không thắt dây đai an toàn (tại vị trí có trang bị dây đai an toàn) khi xe đang chạy”.
+
+Hiện không có hình phạt bổ sung nào khác được quy định cho hành vi này. Vì vậy, để tránh bị phạt và bảo đảm an toàn, hành khách ngồi sau nên luôn thắt dây an toàn khi xe đang lưu thông.
+Citation: Điểm Điểm l, Khoản Khoản 3, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 800,000.0 - 1,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 3, Point Điểm l
+
+
+Intermediate Stats (after 17 tests):
+  Accuracy: 70.59% (12/17)
+  Retrieval Success: 17/17
+
+
+================================================================================
+Progress: 18/50
+================================================================================
+
+================================================================================
+Testing TEST_018
+Question: Xe máy chạy quá tốc độ hơn 20km/h bị phạt bao nhiêu?
+Expected Violation ID: D168-A7-C8-Pa
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C8-Pa (similarity: 0.9265)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C8-Pa"}
+  Rank 2: D168-A6-C6-Pa (similarity: 0.9109)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C6-Pa", "vehicle_type": "ô tô"}
+  Rank 3: D168-A6-C5-Pđ (similarity: 0.9077)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C5-Pđ", "version": "168/2024"}
+  Rank 4: D168-A7-C4-Pa (similarity: 0.9077)
+    Metadata: {"violation_id": "D168-A7-C4-Pa", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 5: D168-A6-C7-Pa (similarity: 0.8957)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C7-Pa"}
+  Rank 6: D168-A6-C3-Pa (similarity: 0.8780)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C3-Pa", "vehicle_type": "ô tô"}
+  Rank 7: D168-A7-C2-Pb (similarity: 0.8780)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pb"}
+  Rank 8: D168-A7-C9-Pb (similarity: 0.8687)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pb"}
+  Rank 9: D168-A7-C1-Pk (similarity: 0.8566)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pk"}
+  Rank 10: D168-A7-C2-Pk (similarity: 0.8544)
+    Metadata: {"violation_id": "D168-A7-C2-Pk", "vehicle_type": "xe máy", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.9265
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C4-Pa
+Match: ✗ INCORRECT
+Response Time: 8.22s
+Answer: Việc điều khiển xe máy chạy quá tốc độ quy định từ 10 km/h đến 20 km/h là hành vi vi phạm giao thông. Đối với hành vi này, người vi phạm sẽ phải nộp tiền phạt hành chính trong khoảng từ **800.000 đồng đến 1.000.000 đồng**.  
+
+**Đối tượng áp dụng**: Tất cả người điều khiển xe máy khi tốc độ thực tế vượt quá giới hạn cho phép từ 10 km/h tới 20 km/h so với tốc độ quy định trên đoạn đường đang lưu thông.  
+
+**Căn cứ pháp lý**: Khoản 4, Điều 7, điểm a của Nghị định số 168/2024/NĐ‑CP quy định mức phạt cho hành vi này.  
+
+**Hình phạt bổ sung**: Theo thông tin hiện tại không có hình phạt bổ sung nào được quy định cho vi phạm này.  
+
+Do đó, nếu bạn lái xe máy vượt quá tốc độ quy định trong khoảng 10‑20 km/h, bạn sẽ bị phạt từ 800.000 đồng đến 1.000.000 đồng theo quy định trên. Nếu tốc độ vượt quá hơn 20 km/h, mức phạt sẽ được quy định ở các khoản, điều khác của pháp luật.
+Citation: Điểm Điểm a, Khoản Khoản 4, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 800,000.0 - 1,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 4, Point Điểm a
+
+
+Intermediate Stats (after 18 tests):
+  Accuracy: 66.67% (12/18)
+  Retrieval Success: 18/18
+
+
+================================================================================
+Progress: 19/50
+================================================================================
+
+================================================================================
+Testing TEST_019
+Question: Kéo xe khác bằng ô tô mà không gắn biển báo hiệu thì phạt thế nào?
+Expected Violation ID: D168-A6-C1-Pd
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C1-Pd (similarity: 0.8836)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C1-Pd", "vehicle_type": "ô tô"}
+  Rank 2: D168-A7-C3-Pg (similarity: 0.8800)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C3-Pg", "version": "168/2024"}
+  Rank 3: D168-A6-C3-Pi (similarity: 0.8697)
+    Metadata: {"violation_id": "D168-A6-C3-Pi", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 4: D168-A6-C1-Pb (similarity: 0.8667)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C1-Pb", "vehicle_type": "ô tô"}
+  Rank 5: D168-A6-C3-Ph (similarity: 0.8640)
+    Metadata: {"violation_id": "D168-A6-C3-Ph", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 6: D168-A6-C1-Pa (similarity: 0.8568)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C1-Pa"}
+  Rank 7: D168-A7-C1-Pa (similarity: 0.8568)
+    Metadata: {"violation_id": "D168-A7-C1-Pa", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 8: D168-A6-C1-Pc (similarity: 0.8494)
+    Metadata: {"violation_id": "D168-A6-C1-Pc", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 9: D168-A6-C5-Pa (similarity: 0.8486)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C5-Pa"}
+  Rank 10: D168-A7-C3-Pe (similarity: 0.8472)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C3-Pe"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8836
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C1-Pd
+Match: ✓ CORRECT
+Response Time: 7.31s
+Answer: Hành vi không gắn biển báo hiệu ở phía trước xe kéo và phía sau xe được kéo, hoặc điều khiển xe kéo rơ moóc mà không có biển báo theo quy định, là vi phạm luật giao thông đường bộ.  
+
+**Mức phạt**  
+- Tiền phạt từ **400.000 đ đến 600.000 đồng** cho mỗi lần vi phạm.  
+
+**Đối tượng áp dụng**  
+- Chủ sở hữu, người điều khiển ô tô (hoặc các loại phương tiện cơ giới khác) thực hiện việc kéo xe khác mà không gắn biển báo hiệu yêu cầu.  
+
+**Căn cứ pháp lý**  
+- Khoản 1, Điều 6, Nghị định 168/2024/NĐ‑CP quy định về việc gắn biển báo hiệu cho xe kéo và xe bị kéo.  
+
+**Các hình phạt bổ sung**  
+- Hiện không có hình phạt bổ sung nào được quy định cho hành vi này.  
+
+Do đó, khi kéo xe khác bằng ô tô, người lái phải lắp đầy đủ biển báo hiệu ở vị trí quy định (trước xe kéo và sau xe bị kéo). Nếu không tuân thủ, sẽ bị phạt tiền trong khoảng nêu trên theo quy định của Nghị định 168/2024/NĐ‑CP.
+Citation: Điểm Điểm d, Khoản Khoản 1, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 400,000.0 - 600,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 1, Point Điểm d
+
+
+Intermediate Stats (after 19 tests):
+  Accuracy: 68.42% (13/19)
+  Retrieval Success: 19/19
+
+
+================================================================================
+Progress: 20/50
+================================================================================
+
+================================================================================
+Testing TEST_020
+Question: Gây tai nạn xe máy rồi bỏ chạy không cứu người bị phạt bao nhiêu?
+Expected Violation ID: D168-A7-C9-Pc
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Pc (similarity: 0.8605)
+    Metadata: {"violation_id": "D168-A7-C9-Pc", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 2: D168-A6-C8 (similarity: 0.8557)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C8", "vehicle_type": "ô tô"}
+  Rank 3: D168-A6-C4-Pg (similarity: 0.8534)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C4-Pg"}
+  Rank 4: D168-A7-C5-Pa (similarity: 0.8532)
+    Metadata: {"violation_id": "D168-A7-C5-Pa", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 5: D168-A6-C5-Pq (similarity: 0.8413)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C5-Pq"}
+  Rank 6: D168-A6-C1-Pa (similarity: 0.8407)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C1-Pa"}
+  Rank 7: D168-A7-C1-Pa (similarity: 0.8407)
+    Metadata: {"violation_id": "D168-A7-C1-Pa", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 8: D168-A7-C1-Pđ (similarity: 0.8376)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C1-Pđ", "vehicle_type": "xe máy"}
+  Rank 9: D168-A7-C2-Pk (similarity: 0.8363)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C2-Pk"}
+  Rank 10: D168-A6-C2-Pc (similarity: 0.8357)
+    Metadata: {"violation_id": "D168-A6-C2-Pc", "version": "168/2024", "vehicle_type": "ô tô"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8605
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C9-Pc
+Match: ✓ CORRECT
+Response Time: 6.11s
+Answer: Hành vi “gây tai nạn giao thông không dừng lại, không giữ nguyên hiện trường, không trợ giúp người bị nạn và không trình báo ngay với cơ quan công an” được quy định là vi phạm nghiêm trọng đối với mọi loại phương tiện, trong đó có xe máy.  
+
+**Mức phạt tiền**  
+- Phạt hành chính từ 8 .000.000 đồng đến 10 .000.000 đồng.  
+
+**Các hình phạt bổ sung**  
+- Bị trừ 6 điểm trên giấy phép lái xe.  
+
+**Đối tượng áp dụng**  
+- Người điều khiển xe máy (hoặc người có trách nhiệm) gây ra tai nạn và không thực hiện các nghĩa vụ trên (không dừng lại, không giữ hiện trường, không cứu trợ, không báo cáo).  
+
+**Căn cứ pháp lý**  
+- Điều 7, khoản 9, điểm c của Nghị định 168/2024/NĐ‑CP quy định về hành vi “gây tai nạn giao thông không dừng ngay phương tiện, không giữ nguyên hiện trường, không trợ giúp người bị nạn, không ở lại hiện trường hoặc không đến trình báo ngay với cơ quan công an, Ủy ban nhân dân nơi gần nhất”.  
+
+Do vậy, nếu bạn hoặc người khác gây tai nạn xe máy rồi bỏ chạy mà không thực hiện các nghĩa vụ trên, sẽ phải chịu phạt tiền từ 8 đến 10 triệu đồng và bị trừ 6 điểm giấy phép lái xe theo quy định của pháp luật hiện hành.
+Citation: Điểm Điểm c, Khoản Khoản 9, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 8,000,000.0 - 10,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 9, Point Điểm c
+
+
+Intermediate Stats (after 20 tests):
+  Accuracy: 70.00% (14/20)
+  Retrieval Success: 20/20
+
+
+================================================================================
+Progress: 21/50
+================================================================================
+
+================================================================================
+Testing TEST_021
+Question: Chở bé dưới 10 tuổi ngồi ghế trước ô tô có bị phạt không?
+Expected Violation ID: D168-A6-C3-Pm
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Ph (similarity: 0.8902)
+    Metadata: {"violation_id": "D168-A7-C9-Ph", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 2: D168-A6-C3-Pm (similarity: 0.8854)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pm"}
+  Rank 3: D168-A7-C2-Pg (similarity: 0.8676)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pg", "version": "168/2024"}
+  Rank 4: D168-A7-C3-Pb (similarity: 0.8662)
+    Metadata: {"violation_id": "D168-A7-C3-Pb", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 5: D168-A7-C2-Pi (similarity: 0.8633)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pi"}
+  Rank 6: D168-A7-C1-Pd (similarity: 0.8548)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pd", "version": "168/2024"}
+  Rank 7: D168-A6-C3-Pa (similarity: 0.8489)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pa"}
+  Rank 8: D168-A7-C2-Pb (similarity: 0.8489)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C2-Pb", "vehicle_type": "xe máy"}
+  Rank 9: D168-A7-C2-Pk (similarity: 0.8485)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C2-Pk"}
+  Rank 10: D168-A6-C2-Pb (similarity: 0.8483)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C2-Pb", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8854
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C3-Pm
+Match: ✓ CORRECT
+Response Time: 6.00s
+Answer: Việc cho trẻ em dưới 10 tuổi và chiều cao dưới 1,35 m ngồi trên ghế trước của ô tô (trừ các xe chỉ có một hàng ghế) hoặc không sử dụng thiết bị an toàn phù hợp cho trẻ là hành vi vi phạm quy định giao thông.  
+
+- **Mức phạt**: tiền phạt từ 800.000 đ đến 1.000.000 đồng.  
+- **Đối tượng áp dụng**: mọi tài xế, chủ phương tiện ô tô khi đưa trẻ em dưới 10 tuổi/người chưa đạt chiều cao quy định ngồi chung ghế với người lái hoặc không gắn ghế bảo hiểm, ghế ngồi trẻ em, dây đai an toàn phù hợp.  
+- **Căn cứ pháp lý**: Khoản 3, Điều 6, Điểm m của Nghị định 168/2024/NĐ‑CP.  
+
+Hiện không có hình phạt bổ sung nào được quy định thêm cho hành vi này. Do đó, nếu bạn đưa trẻ dưới 10 tuổi ngồi ghế trước mà không có ghế bảo hiểm hoặc dây an toàn thích hợp, bạn sẽ bị xử phạt trong khoảng trên. Để tránh vi phạm, hãy luôn đặt trẻ trên ghế sau và sử dụng thiết bị an toàn dành cho trẻ em theo quy định.
+Citation: Điểm Điểm m, Khoản Khoản 3, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 800,000.0 - 1,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 3, Point Điểm m
+
+
+Intermediate Stats (after 21 tests):
+  Accuracy: 71.43% (15/21)
+  Retrieval Success: 21/21
+
+
+================================================================================
+Progress: 22/50
+================================================================================
+
+================================================================================
+Testing TEST_022
+Question: Không chấp hành hiệu lệnh của CSGT khi lái xe máy thì phạt nặng không?
+Expected Violation ID: D168-A7-C7-Pd
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C1-Pa (similarity: 0.9022)
+    Metadata: {"violation_id": "D168-A6-C1-Pa", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 2: D168-A7-C1-Pa (similarity: 0.9022)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pa"}
+  Rank 3: D168-A6-C9-Pb (similarity: 0.8932)
+    Metadata: {"violation_id": "D168-A6-C9-Pb", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 4: D168-A7-C7-Pc (similarity: 0.8932)
+    Metadata: {"violation_id": "D168-A7-C7-Pc", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 5: D168-A6-C9-Pc (similarity: 0.8872)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C9-Pc"}
+  Rank 6: D168-A7-C7-Pd (similarity: 0.8872)
+    Metadata: {"violation_id": "D168-A7-C7-Pd", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 7: D168-A6-C2-Pc (similarity: 0.8687)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C2-Pc", "version": "168/2024"}
+  Rank 8: D168-A7-C1-Pđ (similarity: 0.8676)
+    Metadata: {"violation_id": "D168-A7-C1-Pđ", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 9: D168-A7-C3-Pđ (similarity: 0.8658)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C3-Pđ"}
+  Rank 10: D168-A7-C2-Pk (similarity: 0.8634)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C2-Pk"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 6 with similarity 0.8872
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C7-Pd
+Match: ✓ CORRECT
+Response Time: 6.80s
+Answer: Hành vi **không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông (cảnh sát giao thông)** khi điều khiển xe máy là một vi phạm quy định giao thông đường bộ.  
+
+**Mức phạt**:  
+- Phạt tiền từ **4 .000.000 đồng đến 6 .000.000 đồng**.  
+- Đồng thời, **bị trừ 04 điểm** trên giấy phép lái xe.
+
+**Đối tượng áp dụng**: Tất cả người điều khiển xe máy tham gia giao thông mà không thực hiện đúng chỉ thị, lệnh của cảnh sát giao thông tại nơi có yêu cầu.
+
+**Căn cứ pháp lý**:  
+- Điều 7, Khoản 7, Điểm d, Nghị định **168/2024/NĐ‑CP** quy định việc không chấp hành hiệu lệnh, hướng dẫn của người điều khiển hoặc người kiểm soát giao thông sẽ bị xử phạt hành chính như trên.
+
+Vì vậy, nếu không nghe lệnh của CSGT khi lái xe máy, bạn sẽ phải chịu mức phạt tiền từ 4 đến 6 triệu đồng và mất 4 điểm giấy phép lái xe. Hãy luôn tuân thủ chỉ thị của lực lượng chức năng để đảm bảo an toàn cho bản thân và mọi người trên đường.
+Citation: Điểm Điểm d, Khoản Khoản 7, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 4,000,000.0 - 6,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 7, Point Điểm d
+
+
+Intermediate Stats (after 22 tests):
+  Accuracy: 72.73% (16/22)
+  Retrieval Success: 22/22
+
+
+================================================================================
+Progress: 23/50
+================================================================================
+
+================================================================================
+Testing TEST_023
+Question: Ô tô đỗ trên miệng cống thoát nước bị phạt bao nhiêu tiền?
+Expected Violation ID: D168-A6-C3-Pe
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C3-Pc (similarity: 0.8307)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pc", "vehicle_type": "xe máy"}
+  Rank 2: D168-A6-C3-Pe (similarity: 0.8300)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pe"}
+  Rank 3: D168-A7-C2-Pk (similarity: 0.8291)
+    Metadata: {"violation_id": "D168-A7-C2-Pk", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 4: D168-A6-C1-Pb (similarity: 0.8268)
+    Metadata: {"violation_id": "D168-A6-C1-Pb", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 5: D168-A7-C4-Pb (similarity: 0.8246)
+    Metadata: {"violation_id": "D168-A7-C4-Pb", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 6: D168-A7-C4-Pd (similarity: 0.8241)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C4-Pd", "vehicle_type": "xe máy"}
+  Rank 7: D168-A7-C2-Pa (similarity: 0.8228)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pa", "version": "168/2024"}
+  Rank 8: D168-A6-C5-Pk (similarity: 0.8192)
+    Metadata: {"violation_id": "D168-A6-C5-Pk", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 9: D168-A6-C3-Pl (similarity: 0.8172)
+    Metadata: {"violation_id": "D168-A6-C3-Pl", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 10: D168-A7-C1-Pđ (similarity: 0.8170)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C1-Pđ", "vehicle_type": "xe máy"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8300
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C5-Pk
+Match: ✗ INCORRECT
+Response Time: 6.94s
+Answer: Việc dừng, đỗ ô tô trái quy định tại miệng cống thoát nước, gây cản trở lưu thông và ủn tắc giao thông là hành vi vi phạm quy định “Dừng xe, đỗ xe, quay đầu xe trái quy định gây ủn tắc giao thông”.  
+
+**Mức phạt:**  
+- Tiền phạt từ 4.000.000 đ đến 6.000.000 đ.  
+
+**Hình phạt bổ sung:**  
+- Trừ 2 điểm trong giấy phép lái xe.  
+
+**Căn cứ pháp lý:**  
+- Nghị định số 168/2024/NĐ‑CP, Điều 6, Khoản 5, điểm K.  
+
+Áp dụng cho mọi loại xe ô tô khi thực hiện hành vi trên, bất kể địa điểm hay thời gian. Người vi phạm sẽ phải nộp tiền phạt trong khoảng quy định và chịu việc giảm điểm bằng lái theo quy định của pháp luật giao thông đường bộ.
+Citation: Điểm Điểm k, Khoản Khoản 5, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 4,000,000.0 - 6,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 5, Point Điểm k
+
+
+Intermediate Stats (after 23 tests):
+  Accuracy: 69.57% (16/23)
+  Retrieval Success: 23/23
+
+
+================================================================================
+Progress: 24/50
+================================================================================
+
+================================================================================
+Testing TEST_024
+Question: Uống rượu bia lái xe máy thổi nồng độ cồn vượt quá 0.4mg/l thì bị gì?
+Expected Violation ID: D168-A7-C9-Pd
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C11-Pa (similarity: 0.8978)
+    Metadata: {"violation_id": "D168-A6-C11-Pa", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 2: D168-A7-C9-Pd (similarity: 0.8978)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pd"}
+  Rank 3: D168-A6-C6-Pc (similarity: 0.8924)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C6-Pc", "version": "168/2024"}
+  Rank 4: D168-A7-C6-Pa (similarity: 0.8924)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C6-Pa"}
+  Rank 5: D168-A6-C9-Pa (similarity: 0.8916)
+    Metadata: {"violation_id": "D168-A6-C9-Pa", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 6: D168-A7-C8-Pb (similarity: 0.8875)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C8-Pb"}
+  Rank 7: D168-A6-C11-Pb (similarity: 0.8685)
+    Metadata: {"violation_id": "D168-A6-C11-Pb", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 8: D168-A7-C9-Pđ (similarity: 0.8685)
+    Metadata: {"violation_id": "D168-A7-C9-Pđ", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 9: D168-A6-C7-Pa (similarity: 0.8677)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C7-Pa", "vehicle_type": "ô tô"}
+  Rank 10: D168-A6-C3-Pa (similarity: 0.8650)
+    Metadata: {"violation_id": "D168-A6-C3-Pa", "vehicle_type": "ô tô", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8978
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C8-Pb
+Match: ✗ INCORRECT
+Response Time: 10.38s
+Answer: Nếu lái xe máy mà nồng độ cồn trong hơi thở từ 0,25 mg/l đến 0,4 mg/l (tương đương 50 mg‑80 mg/100 ml máu), hành vi này được coi là **vi phạm nồng độ cồn**.  
+
+**Mức phạt**:  
+- Phạt tiền từ **6 triệu đồng** đến **8 triệu đồng**.  
+- Đồng thời bị **trừ 10 điểm** trên giấy phép lái xe.
+
+**Đối tượng áp dụng**: Tất cả người điều khiển xe máy trên đường công cộng khi nồng độ cồn đạt mức trên.
+
+**Căn cứ pháp lý**: Nghị định **168/2024/NĐ‑CP**, Điều 7, Khoản 8, điểm b quy định về việc xử phạt người lái xe máy có nồng độ cồn vượt quá giới hạn cho phép.
+
+Như vậy, nếu bị bắt gặp với nồng độ cồn trong khoảng trên, người lái xe sẽ phải nộp tiền phạt theo mức quy định và mất 10 điểm giấy phép lái xe.
+Citation: Điểm Điểm b, Khoản Khoản 8, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 6,000,000.0 - 8,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 8, Point Điểm b
+
+
+Intermediate Stats (after 24 tests):
+  Accuracy: 66.67% (16/24)
+  Retrieval Success: 24/24
+
+
+================================================================================
+Progress: 25/50
+================================================================================
+
+================================================================================
+Testing TEST_025
+Question: Quên bật đèn pha ô tô lúc trời mưa to tầm nhìn kém bị phạt không?
+Expected Violation ID: D168-A6-C3-Pg
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C3-Pk (similarity: 0.8444)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pk"}
+  Rank 2: D168-A6-C9-Pb (similarity: 0.8425)
+    Metadata: {"violation_id": "D168-A6-C9-Pb", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 3: D168-A7-C7-Pc (similarity: 0.8425)
+    Metadata: {"violation_id": "D168-A7-C7-Pc", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 4: D168-A6-C1-Pa (similarity: 0.8421)
+    Metadata: {"violation_id": "D168-A6-C1-Pa", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 5: D168-A7-C1-Pa (similarity: 0.8421)
+    Metadata: {"violation_id": "D168-A7-C1-Pa", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 6: D168-A7-C2-Pk (similarity: 0.8401)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pk", "version": "168/2024"}
+  Rank 7: D168-A6-C5-Pq (similarity: 0.8391)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C5-Pq", "vehicle_type": "ô tô"}
+  Rank 8: D168-A6-C3-Pn (similarity: 0.8388)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pn"}
+  Rank 9: D168-A7-C3-Ph (similarity: 0.8388)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Ph", "vehicle_type": "xe máy"}
+  Rank 10: D168-A7-C1-Pc (similarity: 0.8381)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pc", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✗ Expected violation NOT in top-10 candidates!
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C3-Pg
+Match: ✓ CORRECT
+Response Time: 9.00s
+Answer: Việc không bật đèn pha khi lái ô tô trong điều kiện mưa to, tầm nhìn kém là hành vi vi phạm quy định “Sử dụng đèn chiếu sáng sai quy định”. Theo quy định, khi thời gian từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau hoặc khi có sương mù, khói, bụi, trời mưa, thời tiết xấu làm hạn chế tầm nhìn, người lái xe phải bật đèn chiếu sáng đầy đủ.  
+
+**Mức phạt:**  
+- Tiền phạt từ 800.000 đồng đến 1.000.000 đồng.
+
+**Đối tượng áp dụng:**  
+- Tất cả các loại xe ô tô khi vi phạm quy định trên.
+
+**Căn cứ pháp lý:**  
+- Điều 6, Khoản 3, Điểm g của Nghị định 168/2024/NĐ‑CP.
+
+Hiện không có hình phạt bổ sung nào khác được quy định cho hành vi này. Do đó, nếu bạn quên bật đèn pha trong thời tiết mưa to, bạn sẽ bị xử phạt tiền trong khoảng trên và cần lưu ý luôn bật đèn chiếu sáng đầy đủ để đảm bảo an toàn giao thông và tuân thủ pháp luật.
+Citation: Điểm Điểm g, Khoản Khoản 3, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 800,000.0 - 1,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 3, Point Điểm g
+
+
+Intermediate Stats (after 25 tests):
+  Accuracy: 68.00% (17/25)
+  Retrieval Success: 24/25
+
+
+================================================================================
+Progress: 26/50
+================================================================================
+
+================================================================================
+Testing TEST_026
+Question: Từ chối thổi nồng độ cồn khi bị CSGT yêu cầu trên xe máy thì sao?
+Expected Violation ID: D168-A7-C9-Pđ
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C11-Pb (similarity: 0.8743)
+    Metadata: {"violation_id": "D168-A6-C11-Pb", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 2: D168-A7-C9-Pđ (similarity: 0.8743)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pđ"}
+  Rank 3: D168-A6-C6-Pc (similarity: 0.8506)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C6-Pc", "version": "168/2024"}
+  Rank 4: D168-A7-C6-Pa (similarity: 0.8506)
+    Metadata: {"violation_id": "D168-A7-C6-Pa", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 5: D168-A6-C9-Pa (similarity: 0.8469)
+    Metadata: {"violation_id": "D168-A6-C9-Pa", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 6: D168-A7-C8-Pb (similarity: 0.8458)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C8-Pb"}
+  Rank 7: D168-A6-C11-Pa (similarity: 0.8422)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C11-Pa"}
+  Rank 8: D168-A7-C9-Pd (similarity: 0.8422)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pd"}
+  Rank 9: D168-A6-C1-Pa (similarity: 0.8233)
+    Metadata: {"violation_id": "D168-A6-C1-Pa", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 10: D168-A7-C1-Pa (similarity: 0.8233)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pa"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8743
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C9-Pđ
+Match: ✓ CORRECT
+Response Time: 9.21s
+Answer: Khi người thi hành công vụ (cảnh sát giao thông) yêu cầu kiểm tra nồng độ cồn trên xe máy và người điều khiển từ chối, hành vi này được coi là **không chấp hành yêu cầu kiểm tra nồng độ cồn**.  
+
+**Mức phạt**:  
+- **Tiền phạt** từ **8 .000.000 đồng** đến **10 .000.000 đồng**.  
+- **Tước quyền sử dụng giấy phép lái xe** trong thời gian **22 – 24 tháng**.  
+
+**Căn cứ pháp lý**: Điều 7, Khoản 9, Điểm “đ” của Nghị định 168/2024/NĐ‑CP quy định về việc không chấp hành yêu cầu kiểm tra nồng độ cồn của người thi hành công vụ.  
+
+**Đối tượng áp dụng**: Tất cả người điều khiển xe máy trên mọi tuyến đường công cộng khi bị cảnh sát giao thông yêu cầu thực hiện kiểm tra nồng độ cồn.  
+
+Nếu không chấp hành yêu cầu, ngoài tiền phạt còn có hình phạt bổ sung là tước quyền lái xe trong khoảng thời gian trên, nhằm răn đe và bảo đảm an toàn giao thông. Việc tuân thủ yêu cầu kiểm tra nồng độ cồn là nghĩa vụ pháp lý và góp phần giảm thiểu tai nạn do uống rượu lái xe.
+Citation: Điểm Điểm đ, Khoản Khoản 9, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 8,000,000.0 - 10,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 9, Point Điểm đ
+
+
+Intermediate Stats (after 26 tests):
+  Accuracy: 69.23% (18/26)
+  Retrieval Success: 25/26
+
+
+================================================================================
+Progress: 27/50
+================================================================================
+
+================================================================================
+Testing TEST_027
+Question: Chở người ngồi sau xe máy vòng tay qua người lái để điều khiển bị phạt thế nào?
+Expected Violation ID: D168-A7-C9-Ph
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Ph (similarity: 0.8848)
+    Metadata: {"violation_id": "D168-A7-C9-Ph", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 2: D168-A6-C2-Pb (similarity: 0.8605)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C2-Pb"}
+  Rank 3: D168-A7-C3-Pb (similarity: 0.8551)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C3-Pb", "version": "168/2024"}
+  Rank 4: D168-A6-C3-Pi (similarity: 0.8496)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pi", "version": "168/2024"}
+  Rank 5: D168-A7-C1-Pd (similarity: 0.8489)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C1-Pd", "vehicle_type": "xe máy"}
+  Rank 6: D168-A7-C2-Pk (similarity: 0.8469)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pk", "version": "168/2024"}
+  Rank 7: D168-A6-C3-Pk (similarity: 0.8467)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pk"}
+  Rank 8: D168-A7-C3-Pk (similarity: 0.8451)
+    Metadata: {"violation_id": "D168-A7-C3-Pk", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 9: D168-A7-C3-Pg (similarity: 0.8432)
+    Metadata: {"violation_id": "D168-A7-C3-Pg", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 10: D168-A6-C12 (similarity: 0.8423)
+    Metadata: {"violation_id": "D168-A6-C12", "vehicle_type": "ô tô", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8848
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C9-Ph
+Match: ✓ CORRECT
+Response Time: 7.84s
+Answer: Hành vi: Người lái xe máy để người ngồi sau vòng tay qua người ngồi trước để điều khiển xe (trừ trường hợp chở trẻ em dưới 6 tuổi ngồi phía trước) là vi phạm quy định về cách chở người trên xe máy.
+
+Mức phạt tiền: từ 8 triệu đồng đến 10 triệu đồng.
+
+Hình phạt bổ sung: đối với hành vi này, cơ quan quản lý giao thông còn có thể tước quyền sử dụng giấy phép lái xe trong thời gian từ 10 tháng đến 12 tháng.
+
+Căn cứ pháp lý: Điều 7, Khoản 9, Điểm h của Nghị định 168/2024/NĐ‑CP.
+
+Áp dụng cho: mọi người lái xe máy vi phạm quy định trên, không phân biệt độ tuổi người ngồi sau (ngoại trừ trẻ em dưới 6 tuổi được phép ngồi phía trước).
+Citation: Điểm Điểm h, Khoản Khoản 9, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 8,000,000.0 - 10,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 9, Point Điểm h
+
+
+Intermediate Stats (after 27 tests):
+  Accuracy: 70.37% (19/27)
+  Retrieval Success: 26/27
+
+
+================================================================================
+Progress: 28/50
+================================================================================
+
+================================================================================
+Testing TEST_028
+Question: Ô tô chạy trong hầm mà bật đèn chiếu xa bị phạt bao nhiêu?
+Expected Violation ID: D168-A6-C3-Pn
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C3-Pn (similarity: 0.8738)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pn"}
+  Rank 2: D168-A7-C3-Ph (similarity: 0.8738)
+    Metadata: {"violation_id": "D168-A7-C3-Ph", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 3: D168-A7-C4-Pd (similarity: 0.8548)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C4-Pd", "version": "168/2024"}
+  Rank 4: D168-A7-C1-Ph (similarity: 0.8458)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Ph"}
+  Rank 5: D168-A6-C3-Pb (similarity: 0.8354)
+    Metadata: {"violation_id": "D168-A6-C3-Pb", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 6: D168-A7-C4-Pb (similarity: 0.8349)
+    Metadata: {"violation_id": "D168-A7-C4-Pb", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 7: D168-A7-C1-Pg (similarity: 0.8344)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pg"}
+  Rank 8: D168-A6-C3-Pg (similarity: 0.8304)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pg", "version": "168/2024"}
+  Rank 9: D168-A6-C7-Pa (similarity: 0.8255)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C7-Pa", "vehicle_type": "ô tô"}
+  Rank 10: D168-A6-C4-Pđ (similarity: 0.8233)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C4-Pđ", "vehicle_type": "ô tô"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8738
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C3-Pn
+Match: ✓ CORRECT
+Response Time: 7.28s
+Answer: Việc lái ô tô trong hầm đường bộ mà bật đèn chiếu xa (đèn cao) thay vì sử dụng đèn chiếu sáng gần là hành vi vi phạm quy định giao thông. Theo quy định hiện hành, người điều khiển phương tiện sẽ bị xử phạt tiền từ **800.000 đồng đến 1.000.000 đồng**.
+
+**Căn cứ pháp lý:**  
+- Nghị định 168/2024/NĐ‑CP, Điều 6, Khoản 3, điểm N quy định về việc sử dụng đèn chiếu sáng đúng cách khi lưu thông trong hầm.  
+
+**Đối tượng áp dụng:**  
+- Áp dụng cho tất cả các loại xe ô tô khi di chuyển trong hầm đường bộ và không tuân thủ quy định sử dụng đèn chiếu gần.
+
+**Hình phạt bổ sung:**  
+- Hiện không có hình phạt bổ sung nào được quy định cho hành vi này.
+
+Do đó, nếu bạn bị phát hiện bật đèn chiếu xa trong hầm, bạn sẽ phải nộp tiền phạt trong khoảng trên và cần chuyển sang sử dụng đèn chiếu gần để đảm bảo an toàn và tuân thủ pháp luật.
+Citation: Điểm Điểm n, Khoản Khoản 3, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 800,000.0 - 1,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 3, Point Điểm n
+
+
+Intermediate Stats (after 28 tests):
+  Accuracy: 71.43% (20/28)
+  Retrieval Success: 27/28
+
+
+================================================================================
+Progress: 29/50
+================================================================================
+
+================================================================================
+Testing TEST_029
+Question: Nhóm 3-4 xe máy chạy thành đoàn rú ga gây cản trở giao thông bị phạt ra sao?
+Expected Violation ID: D168-A7-C9-Pi
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Pi (similarity: 0.8590)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pi", "version": "168/2024"}
+  Rank 2: D168-A7-C9-Pb (similarity: 0.8567)
+    Metadata: {"violation_id": "D168-A7-C9-Pb", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 3: D168-A7-C9-Pk (similarity: 0.8561)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C9-Pk"}
+  Rank 4: D168-A6-C7-Pa (similarity: 0.8517)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C7-Pa"}
+  Rank 5: D168-A7-C2-Pc (similarity: 0.8496)
+    Metadata: {"violation_id": "D168-A7-C2-Pc", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 6: D168-A7-C8-Pa (similarity: 0.8493)
+    Metadata: {"violation_id": "D168-A7-C8-Pa", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 7: D168-A6-C3-Pb (similarity: 0.8470)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C3-Pb"}
+  Rank 8: D168-A6-C5-Pk (similarity: 0.8468)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C5-Pk", "version": "168/2024"}
+  Rank 9: D168-A6-C6-Pa (similarity: 0.8410)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C6-Pa", "vehicle_type": "ô tô"}
+  Rank 10: D168-A6-C1-Pa (similarity: 0.8397)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C1-Pa"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8590
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C9-Pi
+Match: ✓ CORRECT
+Response Time: 7.85s
+Answer: Hành vi **điều khiển xe máy thành đoàn (3‑4 xe) mà không có giấy phép** và gây cản trở giao thông thuộc loại vi phạm “Điều khiển xe sai quy định”.  
+
+**Mức phạt tiền:**  
+- Từ 8 triệu đồng đến 10 triệu đồng cho mỗi người vi phạm.
+
+**Hình phạt bổ sung (nếu có):**  
+- Tước quyền sử dụng Giấy phép lái xe trong thời gian từ **10 tháng đến 12 tháng**.
+
+**Đối tượng áp dụng:**  
+- Tất cả người điều khiển xe máy tham gia vào đoàn không được cấp phép và gây cản trở lưu thông trên đường công cộng.
+
+**Căn cứ pháp lý:**  
+- Điều 7, Khoản 9, Điểm i của Nghị định 168/2024/NĐ‑CP quy định việc xử phạt hành vi điều khiển xe thành đoàn gầy cản trở giao thông (trừ khi có giấy phép của cơ quan có thẩm quyền).  
+
+Vì vậy, nếu bị bắt gặp, người lái xe trong đoàn sẽ phải nộp phạt tiền từ 8‑10 triệu đồng và có khả năng bị tước GPLX trong vòng 10‑12 tháng, tùy theo quyết định của cơ quan quản lý giao thông.
+Citation: Điểm Điểm i, Khoản Khoản 9, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 8,000,000.0 - 10,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 9, Point Điểm i
+
+
+Intermediate Stats (after 29 tests):
+  Accuracy: 72.41% (21/29)
+  Retrieval Success: 28/29
+
+
+================================================================================
+Progress: 30/50
+================================================================================
+
+================================================================================
+Testing TEST_030
+Question: Không nhường đường cho xe cứu thương đang hú còi trên xe máy thì phạt bao nhiêu?
+Expected Violation ID: D168-A7-C7-Pđ
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C4-Pd (similarity: 0.8729)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C4-Pd", "vehicle_type": "ô tô"}
+  Rank 2: D168-A7-C7-Pđ (similarity: 0.8721)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C7-Pđ", "vehicle_type": "xe máy"}
+  Rank 3: D168-A6-C6-Pb (similarity: 0.8676)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C6-Pb", "version": "168/2024"}
+  Rank 4: D168-A7-C1-Pđ (similarity: 0.8640)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C1-Pđ", "vehicle_type": "xe máy"}
+  Rank 5: D168-A6-C2-Pc (similarity: 0.8635)
+    Metadata: {"violation_id": "D168-A6-C2-Pc", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 6: D168-A7-C9-Pk (similarity: 0.8634)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pk"}
+  Rank 7: D168-A6-C1-Pa (similarity: 0.8612)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C1-Pa"}
+  Rank 8: D168-A7-C1-Pa (similarity: 0.8612)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pa"}
+  Rank 9: D168-A7-C2-Pk (similarity: 0.8597)
+    Metadata: {"violation_id": "D168-A7-C2-Pk", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 10: D168-A6-C9-Pb (similarity: 0.8578)
+    Metadata: {"violation_id": "D168-A6-C9-Pb", "vehicle_type": "ô tô", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8721
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C7-Pđ
+Match: ✓ CORRECT
+Response Time: 6.95s
+Answer: Hành vi không nhường đường hoặc gây cản trở xe cứu thương đang bật còi, phát tín hiệu ưu tiên khi bạn đang điều khiển xe máy là vi phạm quy định giao thông.  
+
+**Mức phạt**  
+- Tiền phạt tiền hành từ 4.000.000 đ đến 6.000.000 đồng.  
+- Bên cạnh tiền phạt, giấy phép lái xe sẽ bị trừ 4 điểm.  
+
+**Đối tượng áp dụng**  
+- Người điều khiển xe máy (hoặc bất kỳ loại phương tiện nào) không nhường đường cho xe cứu thương khi xe đang thực hiện nhiệm vụ ưu tiên.  
+
+**Căn cứ pháp lý**  
+- Khoản 7, Điều 7 của Nghị định 168/2024/NĐ‑CP quy định về việc không nhường đường hoặc gây cản trở xe được quyền ưu tiên đang phát tín hiệu ưu tiên.  
+
+Vì vậy, nếu không nhường đường cho xe cứu thương đang hú còi, bạn sẽ phải chịu mức phạt tiền từ 4‑6 triệu đồng và mất 4 điểm giấy phép lái xe.
+Citation: Điểm Điểm đ, Khoản Khoản 7, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 4,000,000.0 - 6,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 7, Point Điểm đ
+
+
+Intermediate Stats (after 30 tests):
+  Accuracy: 73.33% (22/30)
+  Retrieval Success: 29/30
+
+
+================================================================================
+Progress: 31/50
+================================================================================
+
+================================================================================
+Testing TEST_031
+Question: Đỗ ô tô ngược chiều với dòng xe đang lưu thông bị phạt mức nào?
+Expected Violation ID: D168-A6-C2-Pd
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Pk (similarity: 0.8643)
+    Metadata: {"violation_id": "D168-A7-C9-Pk", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 2: D168-A6-C5-Pc (similarity: 0.8625)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C5-Pc"}
+  Rank 3: D168-A7-C2-Pk (similarity: 0.8611)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C2-Pk"}
+  Rank 4: D168-A6-C11-Pđ (similarity: 0.8609)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C11-Pđ"}
+  Rank 5: D168-A6-C5-Pk (similarity: 0.8605)
+    Metadata: {"violation_id": "D168-A6-C5-Pk", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 6: D168-A6-C2-Pd (similarity: 0.8596)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C2-Pd", "vehicle_type": "ô tô"}
+  Rank 7: D168-A6-C3-Pđ (similarity: 0.8594)
+    Metadata: {"violation_id": "D168-A6-C3-Pđ", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 8: D168-A6-C9-Pd (similarity: 0.8583)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C9-Pd"}
+  Rank 9: D168-A6-C4-Pb (similarity: 0.8576)
+    Metadata: {"violation_id": "D168-A6-C4-Pb", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 10: D168-A7-C3-Pc (similarity: 0.8576)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C3-Pc", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 6 with similarity 0.8596
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C5-Pc
+Match: ✗ INCORRECT
+Response Time: 9.92s
+Answer: Việc lái ô tô đi ngược chiều với luồng giao thông là hành vi vi phạm quy định giao thông, cụ thể là không nhường đường cho xe đi ngược chiều tại các địa điểm hẹp, dốc, hoặc có chướng ngại vật.  
+
+**Mức phạt:**  
+- **Tiền phạt:** từ 4.000.000 đồng đến 6.000.000 đồng.  
+- **Phạt bổ sung:** trừ 2 điểm trên giấy phép lái xe.  
+
+**Đối tượng áp dụng:** Tất cả các phương tiện ô tô khi thực hiện hành vi đi ngược chiều như trên.  
+
+**Căn cứ pháp lý:** Điều 6, khoản 5, điểm c của Nghị định 168/2024/NĐ‑CP quy định xử phạt hành vi tránh xe đi ngược chiều không đúng quy định và không nhường đường cho xe đi ngược chiều tại các vị trí quy định.  
+
+Vì vậy, nếu lái xe ô tô đi ngược chiều, người vi phạm sẽ phải nộp tiền phạt trong khoảng 4‑6 triệu đồng và bị trừ 2 điểm bằng lái.
+Citation: Điểm Điểm c, Khoản Khoản 5, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 4,000,000.0 - 6,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 5, Point Điểm c
+
+
+Intermediate Stats (after 31 tests):
+  Accuracy: 70.97% (22/31)
+  Retrieval Success: 30/31
+
+
+================================================================================
+Progress: 32/50
+================================================================================
+
+================================================================================
+Testing TEST_032
+Question: Gây tai nạn giao thông vì chạy quá tốc độ trên xe máy thì phạt thế nào?
+Expected Violation ID: D168-A7-C10-Pa
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C7-Pa (similarity: 0.8779)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C7-Pa", "version": "168/2024"}
+  Rank 2: D168-A7-C8-Pa (similarity: 0.8718)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C8-Pa", "version": "168/2024"}
+  Rank 3: D168-A6-C13 (similarity: 0.8669)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C13"}
+  Rank 4: D168-A6-C6-Pa (similarity: 0.8659)
+    Metadata: {"violation_id": "D168-A6-C6-Pa", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 5: D168-A6-C5-Pđ (similarity: 0.8658)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C5-Pđ", "vehicle_type": "ô tô"}
+  Rank 6: D168-A7-C4-Pa (similarity: 0.8658)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C4-Pa", "version": "168/2024"}
+  Rank 7: D168-A6-C3-Pa (similarity: 0.8652)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C3-Pa", "vehicle_type": "ô tô"}
+  Rank 8: D168-A7-C2-Pb (similarity: 0.8652)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C2-Pb", "vehicle_type": "xe máy"}
+  Rank 9: D168-A7-C9-Pb (similarity: 0.8613)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C9-Pb", "vehicle_type": "xe máy"}
+  Rank 10: D168-A6-C10-Pa (similarity: 0.8594)
+    Metadata: {"violation_id": "D168-A6-C10-Pa", "vehicle_type": "ô tô", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✗ Expected violation NOT in top-10 candidates!
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C8-Pa
+Match: ✗ INCORRECT
+Response Time: 6.52s
+Answer: Việc điều khiển xe máy chạy quá tốc độ quy định trên 20 km/h là hành vi vi phạm quy định giao thông. Theo Nghị định 168/2024/NĐ‑CP, Điều 7, Khoản 8, điểm a, người vi phạm sẽ bị xử phạt hành chính như sau:
+
+- **Mức phạt tiền:** từ 6 .000.000 đồng đến 8 .000.000 đồng.
+- **Phạt bổ sung:** trừ 4 điểm trong hệ thống điểm giấy phép lái xe (GPLX).
+
+Áp dụng cho mọi người lái xe máy vi phạm giới hạn tốc độ trên 20 km/h, bất kể địa điểm hay thời gian. Khi bị phạt, người vi phạm phải nộp tiền phạt trong thời hạn quy định và chịu việc giảm điểm GPLX, có thể ảnh hưởng đến việc gia hạn hoặc nâng cấp giấy phép lái xe trong tương lai.  
+
+Nếu có thắc mắc hoặc cần hỗ trợ thủ tục, bạn nên liên hệ với cơ quan quản lý giao thông gần nhất.
+Citation: Điểm Điểm a, Khoản Khoản 8, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 6,000,000.0 - 8,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 8, Point Điểm a
+
+
+Intermediate Stats (after 32 tests):
+  Accuracy: 68.75% (22/32)
+  Retrieval Success: 30/32
+
+
+================================================================================
+Progress: 33/50
+================================================================================
+
+================================================================================
+Testing TEST_033
+Question: Ô tô kéo xe khác mà chở thêm người trên xe được kéo bị phạt bao nhiêu?
+Expected Violation ID: D168-A6-C3-Pi
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C3-Pi (similarity: 0.9066)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pi"}
+  Rank 2: D168-A7-C3-Pg (similarity: 0.8952)
+    Metadata: {"violation_id": "D168-A7-C3-Pg", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 3: D168-A7-C3-Pb (similarity: 0.8836)
+    Metadata: {"violation_id": "D168-A7-C3-Pb", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 4: D168-A7-C3-Pe (similarity: 0.8810)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C3-Pe", "version": "168/2024"}
+  Rank 5: D168-A6-C2-Pb (similarity: 0.8773)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C2-Pb"}
+  Rank 6: D168-A7-C2-Pg (similarity: 0.8699)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C2-Pg", "vehicle_type": "xe máy"}
+  Rank 7: D168-A6-C3-Ph (similarity: 0.8681)
+    Metadata: {"violation_id": "D168-A6-C3-Ph", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 8: D168-A7-C1-Pd (similarity: 0.8675)
+    Metadata: {"violation_id": "D168-A7-C1-Pd", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 9: D168-A7-C9-Ph (similarity: 0.8605)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Ph"}
+  Rank 10: D168-A6-C5-Pp (similarity: 0.8581)
+    Metadata: {"violation_id": "D168-A6-C5-Pp", "vehicle_type": "ô tô", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.9066
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C5-Pp
+Match: ✗ INCORRECT
+Response Time: 8.14s
+Answer: Hành vi **chở người trên thùng xe, trên nóc xe, hoặc để người bám vào cửa/bên ngoài thân xe khi xe đang chạy** – trong trường hợp ô tô kéo xe khác mà lại cho người ngồi trên xe kéo – là hành vi vi phạm quy định giao thông.
+
+**Mức phạt**  
+- Phạt tiền từ **4.000.000 đồng đến 6.000.000 đồng**.  
+- Đồng thời bị **trừ 6 điểm** trên giấy phép lái xe.
+
+**Đối tượng áp dụng**  
+Áp dụng cho mọi tài xế ô tô (bao gồm cả ô tô kéo) vi phạm quy định chở người không đúng cách như trên.
+
+**Căn cứ pháp lý**  
+- Nghị định 168/2024/NĐ‑CP, Điều 6, Khoản 5, điểm p quy định về việc cấm chở người trên thùng, trên nóc, hoặc ở vị trí không an toàn khi xe đang lưu thông.
+
+Vì vậy, nếu bạn kéo một xe khác và cho người ngồi trên xe kéo, bạn sẽ phải chịu mức phạt tiền 4‑6 triệu đồng và mất 6 điểm giấy phép lái xe. Hãy luôn đảm bảo hành khách ngồi đúng chỗ, dùng ghế ngồi và dây an toàn theo quy định để tránh các hình phạt trên.
+Citation: Điểm Điểm p, Khoản Khoản 5, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 4,000,000.0 - 6,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 5, Point Điểm p
+
+
+Intermediate Stats (after 33 tests):
+  Accuracy: 66.67% (22/33)
+  Retrieval Success: 31/33
+
+
+================================================================================
+Progress: 34/50
+================================================================================
+
+================================================================================
+Testing TEST_034
+Question: Chuyển hướng xe ô tô mà không bật xi-nhan và không giảm tốc độ bị gì?
+Expected Violation ID: D168-A6-C3-Pc
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C2-Pk (similarity: 0.8544)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pk", "version": "168/2024"}
+  Rank 2: D168-A7-C3-Pđ (similarity: 0.8460)
+    Metadata: {"violation_id": "D168-A7-C3-Pđ", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 3: D168-A6-C3-Pk (similarity: 0.8434)
+    Metadata: {"violation_id": "D168-A6-C3-Pk", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 4: D168-A7-C6-Pc (similarity: 0.8426)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C6-Pc", "vehicle_type": "xe máy"}
+  Rank 5: D168-A6-C5-Pn (similarity: 0.8425)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C5-Pn", "vehicle_type": "ô tô"}
+  Rank 6: D168-A6-C3-Pc (similarity: 0.8404)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pc"}
+  Rank 7: D168-A6-C9-Pb (similarity: 0.8394)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C9-Pb", "version": "168/2024"}
+  Rank 8: D168-A7-C7-Pc (similarity: 0.8394)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C7-Pc", "vehicle_type": "xe máy"}
+  Rank 9: D168-A6-C5-Pq (similarity: 0.8391)
+    Metadata: {"violation_id": "D168-A6-C5-Pq", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 10: D168-A6-C1-Pa (similarity: 0.8376)
+    Metadata: {"violation_id": "D168-A6-C1-Pa", "vehicle_type": "ô tô", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 6 with similarity 0.8404
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C5-Pq
+Match: ✗ INCORRECT
+Response Time: 9.27s
+Answer: Việc mở cửa xe ô tô khi chưa đảm bảo an toàn là hành vi vi phạm quy định giao thông. Người vi phạm sẽ bị xử phạt tiền từ **4 .000.000 đồng đến 6 .000.000 đồng** và bị trừ **1 điểm** trên bằng lái.  
+
+**Đối tượng áp dụng:** Chủ phương tiện ô tô, tài xế hoặc người điều khiển xe khi mở cửa xe không đảm bảo an toàn cho người và các phương tiện khác.  
+
+**Căn cứ pháp lý:** Điều 6, khoản 5 của Nghị định 168/2024/NĐ‑CP quy định về việc mở cửa xe gây nguy hiểm.  
+
+**Hình phạt bổ sung:** Không có hình phạt bổ sung nào được quy định cho hành vi này.  
+
+Do vậy, khi mở cửa xe, người điều khiển phải chắc chắn rằng cửa đã được đóng chặt và không gây cản trở, nguy hiểm cho giao thông, tránh bị xử phạt theo quy định trên.
+Citation: Điểm Điểm q, Khoản Khoản 5, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 4,000,000.0 - 6,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 5, Point Điểm q
+
+
+Intermediate Stats (after 34 tests):
+  Accuracy: 64.71% (22/34)
+  Retrieval Success: 32/34
+
+
+================================================================================
+Progress: 35/50
+================================================================================
+
+================================================================================
+Testing TEST_035
+Question: Từ chối kiểm tra ma túy khi bị CSGT yêu cầu trên xe máy thì phạt ra sao?
+Expected Violation ID: D168-A7-C9-Pg
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Pg (similarity: 0.8712)
+    Metadata: {"violation_id": "D168-A7-C9-Pg", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 2: D168-A6-C11-Pb (similarity: 0.8690)
+    Metadata: {"violation_id": "D168-A6-C11-Pb", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 3: D168-A7-C9-Pđ (similarity: 0.8690)
+    Metadata: {"violation_id": "D168-A7-C9-Pđ", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 4: D168-A6-C11-Pd (similarity: 0.8652)
+    Metadata: {"violation_id": "D168-A6-C11-Pd", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 5: D168-A6-C11-Pc (similarity: 0.8585)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C11-Pc", "version": "168/2024"}
+  Rank 6: D168-A7-C9-Pe (similarity: 0.8585)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C9-Pe"}
+  Rank 7: D168-A6-C4-Pd (similarity: 0.8530)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C4-Pd"}
+  Rank 8: D168-A6-C9-Pc (similarity: 0.8506)
+    Metadata: {"violation_id": "D168-A6-C9-Pc", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 9: D168-A7-C7-Pd (similarity: 0.8506)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C7-Pd", "version": "168/2024"}
+  Rank 10: D168-A7-C2-Pk (similarity: 0.8462)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pk", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8712
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C9-Pg
+Match: ✓ CORRECT
+Response Time: 7.69s
+Answer: Việc không chấp hành yêu cầu kiểm tra ma túy của Cảnh sát Giao thông khi đang điều khiển xe máy được quy định là hành vi vi phạm “Không chấp hành yêu cầu kiểm tra về chất ma túy hoặc chất kích thích khác mà pháp luật cấm sử dụng của người thi hành công vụ”.
+
+**Mức phạt**  
+- Tiền phạt từ 8.000.000 đồng đến 10.000.000 đồng.  
+
+**Căn cứ pháp lý**  
+- Điều 7, khoản 9, điểm g của Nghị định 168/2024/NĐ‑CP quy định hình thức xử phạt cho hành vi này.
+
+**Hình phạt bổ sung**  
+- Nếu bị kết án, người vi phạm còn có thể bị tước quyền sử dụng giấy phép lái xe trong thời gian từ 22 tháng đến 24 tháng.
+
+Áp dụng cho mọi người điều khiển xe máy trên đường công cộng khi bị Cảnh sát Giao thông yêu cầu kiểm tra ma túy mà từ chối thực hiện. Do vậy, khi gặp yêu cầu kiểm tra, người tham gia giao thông cần hợp tác để tránh các hình phạt nặng nề nêu trên.
+Citation: Điểm Điểm g, Khoản Khoản 9, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 8,000,000.0 - 10,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 9, Point Điểm g
+
+
+Intermediate Stats (after 35 tests):
+  Accuracy: 65.71% (23/35)
+  Retrieval Success: 33/35
+
+
+================================================================================
+Progress: 36/50
+================================================================================
+
+================================================================================
+Testing TEST_036
+Question: Đỗ xe ô tô trên phần đường dành cho người đi bộ qua đường bị phạt bao nhiêu?
+Expected Violation ID: D168-A6-C2-Pđ
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C2-Pc (similarity: 0.8707)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C2-Pc"}
+  Rank 2: D168-A7-C2-Pa (similarity: 0.8703)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C2-Pa"}
+  Rank 3: D168-A7-C4-Pb (similarity: 0.8677)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C4-Pb", "version": "168/2024"}
+  Rank 4: D168-A7-C1-Pđ (similarity: 0.8658)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C1-Pđ", "vehicle_type": "xe máy"}
+  Rank 5: D168-A6-C4-Pd (similarity: 0.8643)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C4-Pd", "vehicle_type": "ô tô"}
+  Rank 6: D168-A7-C2-Pc (similarity: 0.8638)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pc"}
+  Rank 7: D168-A7-C1-Pk (similarity: 0.8627)
+    Metadata: {"violation_id": "D168-A7-C1-Pk", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 8: D168-A6-C3-Pl (similarity: 0.8625)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pl"}
+  Rank 9: D168-A7-C2-Pk (similarity: 0.8624)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C2-Pk", "vehicle_type": "xe máy"}
+  Rank 10: D168-A7-C3-Pc (similarity: 0.8620)
+    Metadata: {"violation_id": "D168-A7-C3-Pc", "version": "168/2024", "vehicle_type": "xe máy"}
+
+
+Retrieval: Found 10 candidates
+✗ Expected violation NOT in top-10 candidates!
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C2-Pc
+Match: ✗ INCORRECT
+Response Time: 7.80s
+Answer: Việc đỗ xe ô tô trên phần đường dành cho người đi bộ (đi qua đường) là hành vi **không tuân thủ quy định nhường đường tại nơi đường bộ giao nhau**. Đây là vi phạm quy định giao thông dành cho tất cả các phương tiện ô tô khi xâm phạm không gian dành cho người đi bộ.
+
+**Mức phạt**:  
+- Phạt tiền từ **600.000 đồng** đến **800.000 đồng**.
+
+**Đối tượng áp dụng**:  
+- Chủ phương tiện ô tô (bao gồm cả tài xế) vi phạm hành vi này.
+
+**Căn cứ pháp lý**:  
+- Khoản 2, Điểm c, Điều 6, Nghị định số 168/2024/NĐ‑CP quy định về việc xử phạt hành vi không nhường đường đúng quy định tại các điểm giao nhau của đường bộ.
+
+Hiện không có hình phạt bổ sung nào được quy định cho hành vi này. Nếu có thắc mắc thêm hoặc cần hỗ trợ giải quyết vi phạm, bạn nên liên hệ cơ quan quản lý giao thông địa phương để được hướng dẫn chi tiết.
+Citation: Điểm Điểm c, Khoản Khoản 2, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 600,000.0 - 800,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 2, Point Điểm c
+
+
+Intermediate Stats (after 36 tests):
+  Accuracy: 63.89% (23/36)
+  Retrieval Success: 33/36
+
+
+================================================================================
+Progress: 37/50
+================================================================================
+
+================================================================================
+Testing TEST_037
+Question: Chạy xe máy thành nhóm quá tốc độ để đua bị phạt thế nào?
+Expected Violation ID: D168-A7-C9-Pb
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Pb (similarity: 0.8920)
+    Metadata: {"violation_id": "D168-A7-C9-Pb", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 2: D168-A6-C7-Pa (similarity: 0.8748)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C7-Pa", "version": "168/2024"}
+  Rank 3: D168-A7-C8-Pa (similarity: 0.8709)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C8-Pa", "vehicle_type": "xe máy"}
+  Rank 4: D168-A6-C6-Pa (similarity: 0.8679)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C6-Pa"}
+  Rank 5: D168-A6-C5-Pđ (similarity: 0.8632)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C5-Pđ"}
+  Rank 6: D168-A7-C4-Pa (similarity: 0.8632)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C4-Pa"}
+  Rank 7: D168-A6-C3-Pa (similarity: 0.8574)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pa"}
+  Rank 8: D168-A7-C2-Pb (similarity: 0.8574)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pb", "version": "168/2024"}
+  Rank 9: D168-A6-C2-Pb (similarity: 0.8534)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C2-Pb", "version": "168/2024"}
+  Rank 10: D168-A7-C2-Pc (similarity: 0.8517)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pc"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8920
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C9-Pb
+Match: ✓ CORRECT
+Response Time: 6.38s
+Answer: Hành vi **điều khiển xe máy thành nhóm (từ 2 xe trở lên) chạy vượt quá tốc độ quy định** được coi là *đua xe trái phép*. Đây là hành vi vi phạm quy định giao thông đường bộ, gây nguy hiểm cho bản thân và những người tham gia giao thông khác.
+
+**Mức phạt** áp dụng cho người vi phạm:  
+- **Phạt tiền** từ **8.000.000 đ** đến **10.000.000 đ**.  
+
+**Hình phạt bổ sung** (nếu có):  
+- **Tước quyền sử dụng Giấy phép lái xe** trong thời gian **từ 10 tháng đến 12 tháng**.  
+
+**Căn cứ pháp lý:**  
+- Nghị định **168/2024/NĐ‑CP**, Điều 7, Khoản 9, Điểm b.  
+
+Áp dụng cho tất cả người điều khiển xe máy tham gia nhóm đua vượt tốc độ, bất kể là tài xế hay người đồng hành trên xe. Nếu bị bắt, cơ quan công an giao thông sẽ thu thập chứng cứ (hình ảnh, video, lời khai…) để xác định mức phạt tiền và thời gian tước GPLX phù hợp với mức độ vi phạm.  
+
+Việc tuân thủ tốc độ cho phép và không tham gia các hoạt động đua xe trái phép là cách tốt nhất để bảo vệ tính mạng của mình và những người xung quanh, đồng thời tránh các hình phạt nặng nề theo pháp luật.
+Citation: Điểm Điểm b, Khoản Khoản 9, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 8,000,000.0 - 10,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 9, Point Điểm b
+
+
+Intermediate Stats (after 37 tests):
+  Accuracy: 64.86% (24/37)
+  Retrieval Success: 34/37
+
+
+================================================================================
+Progress: 38/50
+================================================================================
+
+================================================================================
+Testing TEST_038
+Question: Ô tô dừng xe trên đường ray tàu hỏa bị phạt mức nào?
+Expected Violation ID: D168-A6-C3-Pd
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C3-Pc (similarity: 0.8648)
+    Metadata: {"violation_id": "D168-A7-C3-Pc", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 2: D168-A6-C3-Pd (similarity: 0.8518)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pd", "version": "168/2024"}
+  Rank 3: D168-A7-C4-Pb (similarity: 0.8465)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C4-Pb", "version": "168/2024"}
+  Rank 4: D168-A7-C2-Pe (similarity: 0.8444)
+    Metadata: {"violation_id": "D168-A7-C2-Pe", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 5: D168-A6-C1-Pb (similarity: 0.8406)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C1-Pb"}
+  Rank 6: D168-A7-C2-Pa (similarity: 0.8371)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pa", "version": "168/2024"}
+  Rank 7: D168-A6-C5-Pk (similarity: 0.8355)
+    Metadata: {"violation_id": "D168-A6-C5-Pk", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 8: D168-A6-C1-Pa (similarity: 0.8337)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C1-Pa", "version": "168/2024"}
+  Rank 9: D168-A7-C1-Pa (similarity: 0.8337)
+    Metadata: {"violation_id": "D168-A7-C1-Pa", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 10: D168-A7-C4-Pd (similarity: 0.8306)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C4-Pd"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8518
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C5-Pk
+Match: ✗ INCORRECT
+Response Time: 5.39s
+Answer: Việc dừng, đỗ xe ô tô trên đường ray tàu hỏa là hành vi cấm, vì nó gây cản trở giao thông và nguy hiểm cho an toàn đường sắt. Theo quy định hiện hành, người vi phạm sẽ bị:
+
+- **Mức phạt tiền:** từ 4.000.000 đồng đến 6.000.000 đồng.
+- **Hình phạt bổ sung:** trừ 2 điểm trên giấy phép lái xe.
+
+Căn cứ pháp lý: Điều 6, Khoản 5 của Nghị định 168/2024/NĐ‑CP, trong đó quy định “Điểm K” cho hành vi dừng, đỗ xe trái quy định gây ùn tắc giao thông. 
+
+Áp dụng cho tất cả các loại ô tô khi thực hiện hành vi dừng, đỗ hoặc quay đầu trái quy định trên đường ray. Ngoài tiền phạt, việc trừ điểm GPLX sẽ ảnh hưởng đến khả năng duy trì và gia hạn giấy phép lái xe của người vi phạm.
+Citation: Điểm Điểm k, Khoản Khoản 5, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 4,000,000.0 - 6,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 5, Point Điểm k
+
+
+Intermediate Stats (after 38 tests):
+  Accuracy: 63.16% (24/38)
+  Retrieval Success: 35/38
+
+
+================================================================================
+Progress: 39/50
+================================================================================
+
+================================================================================
+Testing TEST_039
+Question: Chở quá người trên buồng lái ô tô (ví dụ xe 5 chỗ chở 6 người) bị phạt bao nhiêu?
+Expected Violation ID: D168-A6-C2-Pb
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C2-Pb (similarity: 0.9327)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C2-Pb"}
+  Rank 2: D168-A7-C3-Pb (similarity: 0.8905)
+    Metadata: {"violation_id": "D168-A7-C3-Pb", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 3: D168-A7-C9-Pb (similarity: 0.8850)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C9-Pb"}
+  Rank 4: D168-A7-C1-Pd (similarity: 0.8809)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pd", "version": "168/2024"}
+  Rank 5: D168-A7-C3-Pk (similarity: 0.8775)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C3-Pk"}
+  Rank 6: D168-A7-C3-Pđ (similarity: 0.8770)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C3-Pđ", "version": "168/2024"}
+  Rank 7: D168-A6-C5-Pp (similarity: 0.8767)
+    Metadata: {"violation_id": "D168-A6-C5-Pp", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 8: D168-A6-C3-Pi (similarity: 0.8747)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pi"}
+  Rank 9: D168-A6-C3-Pl (similarity: 0.8746)
+    Metadata: {"violation_id": "D168-A6-C3-Pl", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 10: D168-A7-C2-Pk (similarity: 0.8693)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pk", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.9327
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C2-Pb
+Match: ✓ CORRECT
+Response Time: 9.26s
+Answer: Việc chở người trên buồng lái vượt quá số lượng quy định (ví dụ xe ô tô 5 chỗ mà chở 6 người) là hành vi vi phạm quy định về tải trọng người trên phương tiện.  
+
+**Mức phạt:**  
+- Phạt tiền từ 600.000 đ đến 800.000 đồng.  
+
+**Đối tượng áp dụng:**  
+- Tất cả các tài xế, chủ sở hữu hoặc người điều khiển ô tô khi vi phạm quy định số người tối đa được phép ngồi trên buồng lái.  
+
+**Căn cứ pháp lý:**  
+- Khoản 2, Điều 6, điểm b của Nghị định 168/2024/NĐ‑CP quy định xử phạt hành vi chở người trên buồng lái quá số người quy định.  
+
+**Các hình phạt bổ sung:**  
+- Hiện không có hình phạt bổ sung nào được quy định cho hành vi này.  
+
+Do đó, nếu bị bắt gặp chở quá người trên buồng lái, bạn sẽ phải nộp tiền phạt trong khoảng trên và không có hình phạt khác đi kèm. Việc tuân thủ số người cho phép không chỉ tránh bị phạt mà còn góp phần an toàn giao thông.
+Citation: Điểm Điểm b, Khoản Khoản 2, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 600,000.0 - 800,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 2, Point Điểm b
+
+
+Intermediate Stats (after 39 tests):
+  Accuracy: 64.10% (25/39)
+  Retrieval Success: 36/39
+
+
+================================================================================
+Progress: 40/50
+================================================================================
+
+================================================================================
+Testing TEST_040
+Question: Không chấp hành đèn tín hiệu giao thông khi lái ô tô bị phạt ra sao?
+Expected Violation ID: D168-A6-C9-Pb
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C1-Pa (similarity: 0.9063)
+    Metadata: {"violation_id": "D168-A6-C1-Pa", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 2: D168-A7-C1-Pa (similarity: 0.9063)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pa"}
+  Rank 3: D168-A6-C9-Pb (similarity: 0.9030)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C9-Pb"}
+  Rank 4: D168-A7-C7-Pc (similarity: 0.9030)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C7-Pc", "vehicle_type": "xe máy"}
+  Rank 5: D168-A7-C1-Pđ (similarity: 0.8737)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pđ"}
+  Rank 6: D168-A6-C2-Pc (similarity: 0.8721)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C2-Pc"}
+  Rank 7: D168-A6-C9-Pc (similarity: 0.8691)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C9-Pc"}
+  Rank 8: D168-A7-C7-Pd (similarity: 0.8691)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C7-Pd", "vehicle_type": "xe máy"}
+  Rank 9: D168-A7-C7-Pđ (similarity: 0.8650)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C7-Pđ", "version": "168/2024"}
+  Rank 10: D168-A7-C1-Pb (similarity: 0.8642)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pb", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 3 with similarity 0.9030
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C9-Pb
+Match: ✓ CORRECT
+Response Time: 8.15s
+Answer: Việc không chấp hành hiệu lệnh của đèn tín hiệu giao thông (ví dụ: vượt đèn đỏ hoặc đèn vàng) là hành vi vi phạm quy định giao thông đường bộ. Đối với người lái ô tô, hành vi này sẽ bị xử phạt theo quy định hiện hành:
+
+**Mức phạt tiền**  
+- Khoản tiền phạt từ 18 triệu đồng đến 20 triệu đồng.
+
+**Hình phạt bổ sung**  
+- Trừ 04 điểm trên giấy phép lái xe.
+
+**Đối tượng áp dụng**  
+- Tất cả người điều khiển ô tô, xe máy, xe tải… khi không tuân thủ tín hiệu đèn giao thông trên mọi đoạn đường công cộng.
+
+**Căn cứ pháp lý**  
+- Khoản 9, Điều 6, Điểm b của Nghị định 168/2024/NĐ‑CP quy định về việc xử phạt vi phạm không chấp hành hiệu lệnh của đèn tín hiệu giao thông.
+
+Nếu vi phạm kèm theo hậu quả gây tai nạn hoặc thiệt hại tài sản, người vi phạm còn có thể phải chịu thêm các hình phạt khác (phạt tù, bồi thường thiệt hại…) tùy theo mức độ nghiêm trọng. Vì vậy, khi gặp đèn tín hiệu, người lái xe cần luôn dừng lại, chờ tín hiệu xanh mới tiến hành di chuyển để đảm bảo an toàn và tránh bị xử phạt.
+Citation: Điểm Điểm b, Khoản Khoản 9, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 18,000,000.0 - 20,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 9, Point Điểm b
+
+
+Intermediate Stats (after 40 tests):
+  Accuracy: 65.00% (26/40)
+  Retrieval Success: 37/40
+
+
+================================================================================
+Progress: 41/50
+================================================================================
+
+================================================================================
+Testing TEST_041
+Question: Đi xe máy mà trong máu có chất ma túy thì bị xử lý thế nào?
+Expected Violation ID: D168-A7-C9-Pe
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C11-Pc (similarity: 0.8814)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C11-Pc", "version": "168/2024"}
+  Rank 2: D168-A7-C9-Pe (similarity: 0.8793)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C9-Pe"}
+  Rank 3: D168-A6-C6-Pc (similarity: 0.8658)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C6-Pc"}
+  Rank 4: D168-A7-C6-Pa (similarity: 0.8658)
+    Metadata: {"violation_id": "D168-A7-C6-Pa", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 5: D168-A6-C9-Pa (similarity: 0.8615)
+    Metadata: {"violation_id": "D168-A6-C9-Pa", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 6: D168-A7-C8-Pb (similarity: 0.8608)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C8-Pb", "version": "168/2024"}
+  Rank 7: D168-A6-C11-Pa (similarity: 0.8571)
+    Metadata: {"violation_id": "D168-A6-C11-Pa", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 8: D168-A7-C9-Pd (similarity: 0.8571)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pd"}
+  Rank 9: D168-A7-C2-Pk (similarity: 0.8482)
+    Metadata: {"violation_id": "D168-A7-C2-Pk", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 10: D168-A6-C7-Pa (similarity: 0.8467)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C7-Pa"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8793
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C9-Pe
+Match: ✓ CORRECT
+Response Time: 7.60s
+Answer: Hành vi **lái xe máy trong khi có chất ma túy hoặc chất kích thích thuộc danh mục cấm** là vi phạm quy định về an toàn giao thông. Khi bị kiểm tra và kết quả xét nghiệm máu cho thấy có nồng độ chất ma túy, người vi phạm sẽ phải chịu các hình thức xử phạt sau:
+
+**1. Phạt tiền**  
+- Mức phạt từ **8 .000.000 đồng đến 10 .000.000 đồng**.
+
+**2. Hình phạt bổ sung**  
+- **Tước quyền sử dụng giấy phép lái xe** trong khoảng thời gian **22 – 24 tháng**.
+
+**3. Căn cứ pháp lý**  
+- **Nghị định 168/2024/NĐ‑CP**, Khoản 9, Điều 7, điểm e quy định về việc xử lý hành vi điều khiển phương tiện khi trong cơ thể có chất ma túy hoặc các chất kích thích khác mà pháp luật cấm.
+
+**Đối tượng áp dụng**  
+- Tất cả người điều khiển xe máy (có bằng lái hoặc không) khi phát hiện có chất ma túy trong máu tại thời điểm tham gia giao thông trên đường công cộng.
+
+Vì vậy, nếu bạn bị bắt gặp lái xe máy trong tình trạng có chất ma túy trong máu, ngoài việc phải nộp tiền phạt từ 8 đến 10 triệu đồng, bạn còn có thể mất giấy phép lái xe trong gần 2 năm, gây ảnh hưởng nghiêm trọng đến khả năng di chuyển và sinh hoạt. Hãy luôn duy trì trạng thái tỉnh táo khi tham gia giao thông để bảo vệ bản thân và những người xung quanh.
+Citation: Điểm Điểm e, Khoản Khoản 9, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 8,000,000.0 - 10,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 9, Point Điểm e
+
+
+Intermediate Stats (after 41 tests):
+  Accuracy: 65.85% (27/41)
+  Retrieval Success: 38/41
+
+
+================================================================================
+Progress: 42/50
+================================================================================
+
+================================================================================
+Testing TEST_042
+Question: Ô tô đỗ xe trên dốc mà không chèn bánh bị phạt bao nhiêu tiền?
+Expected Violation ID: D168-A6-C2-Pd
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C2-Pd (similarity: 0.8699)
+    Metadata: {"violation_id": "D168-A6-C2-Pd", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 2: D168-A7-C3-Pc (similarity: 0.8593)
+    Metadata: {"violation_id": "D168-A7-C3-Pc", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 3: D168-A7-C2-Pk (similarity: 0.8578)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pk", "version": "168/2024"}
+  Rank 4: D168-A7-C4-Pb (similarity: 0.8558)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C4-Pb"}
+  Rank 5: D168-A6-C1-Pb (similarity: 0.8483)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C1-Pb", "vehicle_type": "ô tô"}
+  Rank 6: D168-A7-C2-Pa (similarity: 0.8479)
+    Metadata: {"violation_id": "D168-A7-C2-Pa", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 7: D168-A6-C5-Pq (similarity: 0.8471)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C5-Pq"}
+  Rank 8: D168-A6-C1-Pc (similarity: 0.8414)
+    Metadata: {"violation_id": "D168-A6-C1-Pc", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 9: D168-A7-C1-Pc (similarity: 0.8411)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pc"}
+  Rank 10: D168-A6-C3-Pk (similarity: 0.8402)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C3-Pk"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8699
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C2-Pd
+Match: ✓ CORRECT
+Response Time: 6.96s
+Answer: Việc ô tô dừng, đỗ trên dốc mà không chèn bánh là hành vi **dừng xe, đỗ xe sai quy định**.  
+- **Hành vi vi phạm:** Xe không chèn bánh khi đỗ trên dốc, gây nguy cơ trượt, lăn ra khỏi vị trí đỗ và ảnh hưởng đến an toàn giao thông.  
+- **Đối tượng áp dụng:** Tất cả các loại xe ô tô khi thực hiện hành vi trên.  
+- **Mức phạt:** Phạt tiền từ **600.000 đồng đến 800.000 đồng**.  
+- **Căn cứ pháp lý:** Khoản 2, điểm d, Điều 6, Nghị định 168/2024/NĐ‑CP.  
+
+Hiện không có hình phạt bổ sung nào được quy định cho hành vi này. Khi đỗ trên dốc, người lái phải chèn bánh (đặt bánh xe vào vị trí ngăn xe lăn) hoặc chọn vị trí đỗ an toàn khác để tránh vi phạm và bảo đảm an toàn giao thông.
+Citation: Điểm Điểm d, Khoản Khoản 2, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 600,000.0 - 800,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 2, Point Điểm d
+
+
+Intermediate Stats (after 42 tests):
+  Accuracy: 66.67% (28/42)
+  Retrieval Success: 39/42
+
+
+================================================================================
+Progress: 43/50
+================================================================================
+
+================================================================================
+Testing TEST_043
+Question: Không tuân thủ hiệu lệnh của CSGT khi lái ô tô thì phạt nặng không?
+Expected Violation ID: D168-A6-C9-Pc
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C1-Pa (similarity: 0.9030)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C1-Pa"}
+  Rank 2: D168-A7-C1-Pa (similarity: 0.9030)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pa"}
+  Rank 3: D168-A6-C9-Pc (similarity: 0.8910)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C9-Pc", "vehicle_type": "ô tô"}
+  Rank 4: D168-A7-C7-Pd (similarity: 0.8910)
+    Metadata: {"violation_id": "D168-A7-C7-Pd", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 5: D168-A6-C9-Pb (similarity: 0.8854)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C9-Pb"}
+  Rank 6: D168-A7-C7-Pc (similarity: 0.8854)
+    Metadata: {"violation_id": "D168-A7-C7-Pc", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 7: D168-A7-C1-Pđ (similarity: 0.8765)
+    Metadata: {"violation_id": "D168-A7-C1-Pđ", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 8: D168-A6-C2-Pc (similarity: 0.8758)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C2-Pc"}
+  Rank 9: D168-A7-C3-Pk (similarity: 0.8698)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C3-Pk", "version": "168/2024"}
+  Rank 10: D168-A7-C3-Pđ (similarity: 0.8686)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C3-Pđ"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 3 with similarity 0.8910
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C9-Pc
+Match: ✓ CORRECT
+Response Time: 7.72s
+Answer: Việc không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông khi lái ô tô là hành vi vi phạm quy định giao thông đường bộ.  
+
+**Mức phạt**:  
+- Phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng.  
+- Bị trừ 4 điểm trên giấy phép lái xe.
+
+**Đối tượng áp dụng**: Tất cả tài xế điều khiển ô tô trên mọi loại đường công cộng.
+
+**Căn cứ pháp lý**: Điều 6, khoản 9, điểm c, Nghị định 168/2024/NĐ‑CP quy định về việc xử phạt vi phạm không chấp hành hiệu lệnh, hướng dẫn của người điều khiển hoặc người kiểm soát giao thông.
+
+Do vậy, nếu không tuân theo chỉ thị của CSGT khi đang lái ô tô, bạn sẽ phải chịu mức phạt tiền nặng và mất 4 điểm giấy phép lái xe.
+Citation: Điểm Điểm c, Khoản Khoản 9, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 18,000,000.0 - 20,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 9, Point Điểm c
+
+
+Intermediate Stats (after 43 tests):
+  Accuracy: 67.44% (29/43)
+  Retrieval Success: 40/43
+
+
+================================================================================
+Progress: 44/50
+================================================================================
+
+================================================================================
+Testing TEST_044
+Question: Lái xe máy say xỉn thổi nồng độ cồn cao nhất thì bị tước bằng bao lâu?
+Expected Violation ID: D168-A7-C9-Pd
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C2-Pb (similarity: 0.8741)
+    Metadata: {"violation_id": "D168-A6-C2-Pb", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 2: D168-A6-C9-Pa (similarity: 0.8702)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C9-Pa"}
+  Rank 3: D168-A6-C7-Pa (similarity: 0.8674)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C7-Pa"}
+  Rank 4: D168-A6-C6-Pc (similarity: 0.8672)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C6-Pc", "version": "168/2024"}
+  Rank 5: D168-A7-C6-Pa (similarity: 0.8672)
+    Metadata: {"violation_id": "D168-A7-C6-Pa", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 6: D168-A7-C8-Pb (similarity: 0.8668)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C8-Pb", "version": "168/2024"}
+  Rank 7: D168-A7-C8-Pa (similarity: 0.8665)
+    Metadata: {"violation_id": "D168-A7-C8-Pa", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 8: D168-A7-C9-Pb (similarity: 0.8663)
+    Metadata: {"violation_id": "D168-A7-C9-Pb", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 9: D168-A7-C3-Pđ (similarity: 0.8662)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C3-Pđ", "vehicle_type": "xe máy"}
+  Rank 10: D168-A6-C11-Pa (similarity: 0.8660)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C11-Pa"}
+
+
+Retrieval: Found 10 candidates
+✗ Expected violation NOT in top-10 candidates!
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C8-Pb
+Match: ✗ INCORRECT
+Response Time: 9.88s
+Answer: Hành vi lái xe máy khi nồng độ cồn trong máu hoặc hơi thở nằm trong khoảng **50 – 80 mg/100 ml** (hoặc **0,25 – 0,4 mg/l** khí thở) được coi là **vi phạm nồng độ cồn** theo Khoản 8, Điều 7, Nghị định 168/2024/NĐ‑CP.
+
+**Mức phạt áp dụng**  
+- **Tiền phạt:** từ 6 triệu đồng đến 8 triệu đồng.  
+- **Hình phạt bổ sung:** trừ **10 điểm** trong giấy phép lái xe (điểm b).
+
+**Về việc tước bằng lái**  
+Trong trường hợp nồng độ cồn ở mức trên, pháp luật hiện hành không quy định thời gian tước bằng lái cụ thể. Khi người lái bị trừ 10 điểm, nếu tổng điểm còn lại bằng 0, giấy phép lái xe sẽ bị **tạm ngừng** và người lái phải làm lại thủ tục cấp bằng (thông thường thời gian chờ là 3 tháng, tùy theo quyết định của cơ quan quản lý). 
+
+Do đó, đối với nồng độ cồn cao nhất trong khung 50 – 80 mg/100 ml, người vi phạm sẽ chịu **phạt tiền 6‑8 triệu đồng và bị trừ 10 điểm GPLX**; việc tước bằng lái sẽ được thực hiện khi điểm lái còn lại bằng 0, theo quy định về tạm ngừng giấy phép lái xe.
+Citation: Điểm Điểm b, Khoản Khoản 8, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 6,000,000.0 - 8,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 8, Point Điểm b
+
+
+Intermediate Stats (after 44 tests):
+  Accuracy: 65.91% (29/44)
+  Retrieval Success: 40/44
+
+
+================================================================================
+Progress: 45/50
+================================================================================
+
+================================================================================
+Testing TEST_045
+Question: Đỗ xe ô tô ngay trước cổng cơ quan nhà nước bị phạt thế nào?
+Expected Violation ID: D168-A6-C3-Pđ
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C3-Pc (similarity: 0.8659)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C3-Pc"}
+  Rank 2: D168-A7-C2-Pk (similarity: 0.8593)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pk"}
+  Rank 3: D168-A6-C5-Pk (similarity: 0.8581)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C5-Pk"}
+  Rank 4: D168-A7-C4-Pb (similarity: 0.8565)
+    Metadata: {"violation_id": "D168-A7-C4-Pb", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 5: D168-A7-C1-Pd (similarity: 0.8553)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C1-Pd", "vehicle_type": "xe máy"}
+  Rank 6: D168-A6-C5-Pq (similarity: 0.8541)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C5-Pq", "version": "168/2024"}
+  Rank 7: D168-A7-C2-Pa (similarity: 0.8539)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pa", "version": "168/2024"}
+  Rank 8: D168-A7-C7-Pđ (similarity: 0.8539)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C7-Pđ"}
+  Rank 9: D168-A7-C9-Pk (similarity: 0.8537)
+    Metadata: {"violation_id": "D168-A7-C9-Pk", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 10: D168-A6-C4-Pa (similarity: 0.8534)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C4-Pa", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✗ Expected violation NOT in top-10 candidates!
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C5-Pk
+Match: ✗ INCORRECT
+Response Time: 7.09s
+Answer: Hành vi dừng xe, đỗ xe trái quy định ngay trước cổng cơ quan nhà nước, gây cản trở lưu thông được xem là “dừng xe, đỗ xe, quay đầu xe trái quy định gây ùn tắc giao thông”.  
+
+**Mức phạt**  
+- Tiền phạt từ 4 000 000 đồng đến 6 000 000 đồng.  
+- Bên cạnh tiền phạt, giấy phép lái xe sẽ bị trừ 2 điểm.  
+
+**Đối tượng áp dụng**  
+- Áp dụng cho tất cả các loại xe ô tô khi thực hiện hành vi trên.  
+
+**Căn cứ pháp lý**  
+- Điều 6, Khoản 5, Điểm K của Nghị định số 168/2024/NĐ‑CP quy định mức phạt và hình thức xử lý đối với hành vi dừng, đỗ xe trái quy định gây ùn tắc giao thông.  
+
+Nếu vi phạm, người lái xe sẽ nhận được biên bản phạt tiền theo quy định và phải nộp tiền phạt trong thời hạn qui định; đồng thời giấy phép lái xe sẽ bị trừ 2 điểm, ảnh hưởng đến việc duy trì hoặc gia hạn giấy phép lái xe trong tương lai.  
+
+Do đó, để tránh các hình phạt trên, khi tới các khu vực có cổng cơ quan nhà nước, người lái xe cần lưu ý dừng, đỗ xe ở những vị trí cho phép, không gây cản trở lưu thông.
+Citation: Điểm Điểm k, Khoản Khoản 5, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 4,000,000.0 - 6,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 5, Point Điểm k
+
+
+Intermediate Stats (after 45 tests):
+  Accuracy: 64.44% (29/45)
+  Retrieval Success: 40/45
+
+
+================================================================================
+Progress: 46/50
+================================================================================
+
+================================================================================
+Testing TEST_046
+Question: Chạy xe máy nhóm đông gây cản trở giao thông mà không có phép thì sao?
+Expected Violation ID: D168-A7-C9-Pi
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Pi (similarity: 0.8935)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pi"}
+  Rank 2: D168-A7-C2-Pc (similarity: 0.8830)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pc", "version": "168/2024"}
+  Rank 3: D168-A7-C9-Pb (similarity: 0.8775)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pb"}
+  Rank 4: D168-A7-C2-Pk (similarity: 0.8739)
+    Metadata: {"version": "168/2024", "vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pk"}
+  Rank 5: D168-A7-C3-Pđ (similarity: 0.8728)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C3-Pđ"}
+  Rank 6: D168-A6-C1-Pa (similarity: 0.8707)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C1-Pa", "version": "168/2024"}
+  Rank 7: D168-A7-C1-Pa (similarity: 0.8707)
+    Metadata: {"violation_id": "D168-A7-C1-Pa", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 8: D168-A7-C1-Pđ (similarity: 0.8683)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pđ", "version": "168/2024"}
+  Rank 9: D168-A6-C9-Pb (similarity: 0.8681)
+    Metadata: {"version": "168/2024", "vehicle_type": "ô tô", "violation_id": "D168-A6-C9-Pb"}
+  Rank 10: D168-A7-C7-Pc (similarity: 0.8681)
+    Metadata: {"violation_id": "D168-A7-C7-Pc", "vehicle_type": "xe máy", "version": "168/2024"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8935
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C9-Pi
+Match: ✓ CORRECT
+Response Time: 7.82s
+Answer: Việc điều khiển xe máy thành đoàn gầy, gây cản trở lưu thông mà không có giấy phép của cơ quan có thẩm quyền là hành vi vi phạm quy định giao thông.  
+
+**Mức phạt tiền**: từ 8 000 000 đồng đến 10 000 000 đồng.  
+
+**Hình phạt bổ sung**: có thể bị tước quyền sử dụng giấy phép lái xe trong thời gian từ 10 tháng đến 12 tháng.  
+
+**Đối tượng áp dụng**: tất cả người điều khiển xe máy tham gia đoàn gầy gây cản trở giao thông mà không được cấp phép.  
+
+**Căn cứ pháp lý**: Điều 7, khoản 9, điểm i của Nghị định 168/2024/NĐ‑CP quy định “Điều khiển xe thành đoàn gầy cản trở giao thông, trừ trường hợp được cơ quan có thẩm quyền cấp phép”.  
+
+Do đó, nếu bạn hoặc người khác tham gia vào việc di chuyển xe máy theo dạng đoàn gầy mà không có giấy phép, sẽ phải chịu mức phạt tiền trên và có khả năng bị tước quyền lái xe trong thời gian quy định. Việc tuân thủ quy định này giúp duy trì trật tự, an toàn giao thông cho mọi người.
+Citation: Điểm Điểm i, Khoản Khoản 9, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 8,000,000.0 - 10,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 9, Point Điểm i
+
+
+Intermediate Stats (after 46 tests):
+  Accuracy: 65.22% (30/46)
+  Retrieval Success: 41/46
+
+
+================================================================================
+Progress: 47/50
+================================================================================
+
+================================================================================
+Testing TEST_047
+Question: Ô tô kéo rơ-moóc mà không nối chắc chắn bị phạt bao nhiêu?
+Expected Violation ID: D168-A6-C3-Ph
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A6-C3-Ph (similarity: 0.8598)
+    Metadata: {"violation_id": "D168-A6-C3-Ph", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 2: D168-A6-C1-Pd (similarity: 0.8565)
+    Metadata: {"violation_id": "D168-A6-C1-Pd", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 3: D168-A7-C3-Pg (similarity: 0.8428)
+    Metadata: {"violation_id": "D168-A7-C3-Pg", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 4: D168-A7-C2-Pk (similarity: 0.8337)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pk", "version": "168/2024"}
+  Rank 5: D168-A6-C3-Pi (similarity: 0.8311)
+    Metadata: {"violation_id": "D168-A6-C3-Pi", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 6: D168-A6-C3-Pk (similarity: 0.8297)
+    Metadata: {"violation_id": "D168-A6-C3-Pk", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 7: D168-A6-C5-Pq (similarity: 0.8283)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C5-Pq", "version": "168/2024"}
+  Rank 8: D168-A7-C1-Pc (similarity: 0.8205)
+    Metadata: {"violation_id": "D168-A7-C1-Pc", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 9: D168-A7-C3-Pc (similarity: 0.8199)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C3-Pc", "version": "168/2024"}
+  Rank 10: D168-A7-C4-Pd (similarity: 0.8190)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C4-Pd", "vehicle_type": "xe máy"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8598
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C3-Ph
+Match: ✓ CORRECT
+Response Time: 7.41s
+Answer: Việc lái ô tô kéo rơ‑moóc (hoặc các loại phương tiện, vật khác) mà không nối chắc chắn, an toàn giữa xe kéo và xe được kéo là hành vi vi phạm quy định giao thông.  
+
+**Mức phạt**  
+- Phạt tiền từ 800.000 đến 1.000.000 VNĐ.  
+- Đồng thời bị trừ 2 điểm trên giấy phép lái xe.
+
+**Đối tượng áp dụng**  
+Áp dụng cho mọi xe ô tô khi thực hiện kéo rơ‑moóc, sơ mi rơ‑moóc hoặc các phương tiện, vật khác mà không có biện pháp kết nối an toàn.
+
+**Căn cứ pháp lý**  
+- Khoản 3, Điều 6, Nghị định 168/2024/NĐ‑CP, điểm h.  
+
+Do không nối chắc chắn, nguy cơ gây tai nạn, mất kiểm soát tăng cao, nên pháp luật quy định mức phạt tiền và trừ điểm GPLX như trên. Nếu vi phạm lặp lại hoặc gây hậu quả nghiêm trọng, có thể sẽ có các hình thức xử phạt bổ sung theo quy định hiện hành.
+Citation: Điểm Điểm h, Khoản Khoản 3, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 800,000.0 - 1,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 3, Point Điểm h
+
+
+Intermediate Stats (after 47 tests):
+  Accuracy: 65.96% (31/47)
+  Retrieval Success: 42/47
+
+
+================================================================================
+Progress: 48/50
+================================================================================
+
+================================================================================
+Testing TEST_048
+Question: Không nhường đường ở ngã tư khi lái ô tô bị phạt mức nào?
+Expected Violation ID: D168-A6-C2-Pc
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C1-Pđ (similarity: 0.8890)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pđ"}
+  Rank 2: D168-A6-C2-Pc (similarity: 0.8862)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C2-Pc"}
+  Rank 3: D168-A6-C4-Pd (similarity: 0.8789)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C4-Pd"}
+  Rank 4: D168-A6-C1-Pa (similarity: 0.8693)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C1-Pa"}
+  Rank 5: D168-A7-C1-Pa (similarity: 0.8693)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C1-Pa"}
+  Rank 6: D168-A6-C5-Pn (similarity: 0.8692)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C5-Pn", "vehicle_type": "ô tô"}
+  Rank 7: D168-A7-C6-Pd (similarity: 0.8685)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C6-Pd"}
+  Rank 8: D168-A7-C6-Pc (similarity: 0.8678)
+    Metadata: {"violation_id": "D168-A7-C6-Pc", "vehicle_type": "xe máy", "version": "168/2024"}
+  Rank 9: D168-A6-C5-Po (similarity: 0.8670)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C5-Po", "vehicle_type": "ô tô"}
+  Rank 10: D168-A7-C7-Pđ (similarity: 0.8660)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C7-Pđ", "vehicle_type": "xe máy"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 2 with similarity 0.8862
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A6-C2-Pc
+Match: ✓ CORRECT
+Response Time: 7.39s
+Answer: Hành vi **không nhường đường ở ngã tư khi lái ô tô** là vi phạm quy định về việc nhường đường tại nơi các tuyến đường giao nhau (trừ một số trường hợp quy định tại điểm n, o khoản 5).  
+
+- **Đối tượng áp dụng:** Chủ xe ô tô, tài xế điều khiển ô tô.  
+- **Mức phạt:** Phạt tiền từ 600.000 đến 800.000 đồng.  
+- **Căn cứ pháp lý:** Khoản 2, Điều 6, điểm c của Nghị định 168/2024/NĐ‑CP.  
+
+Hiện không có hình phạt bổ sung nào khác được quy định cho hành vi này. Khi tham gia giao thông, tài xế cần luôn quan sát và nhường đường cho các phương tiện, người đi bộ, hoặc các phương tiện ưu tiên theo quy định để tránh vi phạm và bảo đảm an toàn.
+Citation: Điểm Điểm c, Khoản Khoản 2, Điều Điều 6, Nghị định 168/2024/NĐ-CP
+Fine: 600,000.0 - 800,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 6, Clause Khoản 2, Point Điểm c
+
+
+Intermediate Stats (after 48 tests):
+  Accuracy: 66.67% (32/48)
+  Retrieval Success: 43/48
+
+
+================================================================================
+Progress: 49/50
+================================================================================
+
+================================================================================
+Testing TEST_049
+Question: Lái xe máy quẹt chân chống xuống đường khi đang chạy bị phạt ra sao?
+Expected Violation ID: D168-A7-C9-Pa
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Pa (similarity: 0.8571)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C9-Pa", "vehicle_type": "xe máy"}
+  Rank 2: D168-A6-C3-Pk (similarity: 0.8494)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C3-Pk", "vehicle_type": "ô tô"}
+  Rank 3: D168-A7-C2-Pc (similarity: 0.8453)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C2-Pc", "vehicle_type": "xe máy"}
+  Rank 4: D168-A7-C4-Pd (similarity: 0.8445)
+    Metadata: {"violation_id": "D168-A7-C4-Pd", "version": "168/2024", "vehicle_type": "xe máy"}
+  Rank 5: D168-A7-C2-Pk (similarity: 0.8429)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pk", "version": "168/2024"}
+  Rank 6: D168-A6-C3-Pn (similarity: 0.8417)
+    Metadata: {"violation_id": "D168-A6-C3-Pn", "version": "168/2024", "vehicle_type": "ô tô"}
+  Rank 7: D168-A7-C3-Ph (similarity: 0.8417)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C3-Ph", "version": "168/2024"}
+  Rank 8: D168-A6-C2-Pc (similarity: 0.8398)
+    Metadata: {"violation_id": "D168-A6-C2-Pc", "vehicle_type": "ô tô", "version": "168/2024"}
+  Rank 9: D168-A6-C12 (similarity: 0.8393)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C12", "version": "168/2024"}
+  Rank 10: D168-A7-C1-Pk (similarity: 0.8390)
+    Metadata: {"violation_id": "D168-A7-C1-Pk", "version": "168/2024", "vehicle_type": "xe máy"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8571
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C9-Pa
+Match: ✓ CORRECT
+Response Time: 6.87s
+Answer: Hành vi **sử dụng chân chống hoặc bất kỳ vật nào quét xuống mặt đường khi xe máy đang chạy** được coi là “điều khiển xe lạng lách, đánh võng” trên đường bộ. Đây là hành vi nguy hiểm vì làm mất kiểm soát phương tiện, gây tai nạn cho bản thân và những người tham gia giao thông khác.
+
+**Mức phạt**:  
+- **Phạt tiền** từ **8 .000.000 đồng** đến **10 .000.000 đồng**.  
+- **Tước quyền sử dụng giấy phép lái xe** trong thời gian từ **10 tháng đến 12 tháng**.
+
+**Hình phạt bổ sung** (đối với người tái phạm):  
+- **Tịch thu phương tiện** nếu người điều khiển đã từng vi phạm hành vi này.
+
+**Căn cứ pháp lý**: Điều 7, điểm a, khoản 9 của Nghị định 168/2024/NĐ‑CP.
+
+Áp dụng cho mọi người lái xe máy khi thực hiện hành vi trên, kể cả lần đầu hay lần sau. Nếu vi phạm lần thứ hai, bên cạnh phạt tiền và tước GPLX, cơ quan chức năng còn có thể tịch thu xe máy để ngăn ngừa nguy cơ tái phạm.
+Citation: Điểm Điểm a, Khoản Khoản 9, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 8,000,000.0 - 10,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 9, Point Điểm a
+
+
+Intermediate Stats (after 49 tests):
+  Accuracy: 67.35% (33/49)
+  Retrieval Success: 44/49
+
+
+================================================================================
+Progress: 50/50
+================================================================================
+
+================================================================================
+Testing TEST_050
+Question: Gây tai nạn rồi bỏ trốn không trình báo công an khi lái xe máy thì phạt thế nào?
+Expected Violation ID: D168-A7-C9-Pc
+
+
+--- RETRIEVAL CANDIDATES ---
+Total candidates found: 10
+  Rank 1: D168-A7-C9-Pc (similarity: 0.8617)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C9-Pc", "version": "168/2024"}
+  Rank 2: D168-A6-C8 (similarity: 0.8589)
+    Metadata: {"vehicle_type": "ô tô", "version": "168/2024", "violation_id": "D168-A6-C8"}
+  Rank 3: D168-A6-C1-Pa (similarity: 0.8483)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C1-Pa", "version": "168/2024"}
+  Rank 4: D168-A7-C1-Pa (similarity: 0.8483)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C1-Pa", "version": "168/2024"}
+  Rank 5: D168-A7-C5-Pa (similarity: 0.8455)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A7-C5-Pa", "vehicle_type": "xe máy"}
+  Rank 6: D168-A7-C2-Pc (similarity: 0.8452)
+    Metadata: {"vehicle_type": "xe máy", "violation_id": "D168-A7-C2-Pc", "version": "168/2024"}
+  Rank 7: D168-A6-C4-Pg (similarity: 0.8440)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C4-Pg", "version": "168/2024"}
+  Rank 8: D168-A6-C9-Pb (similarity: 0.8418)
+    Metadata: {"vehicle_type": "ô tô", "violation_id": "D168-A6-C9-Pb", "version": "168/2024"}
+  Rank 9: D168-A7-C7-Pc (similarity: 0.8418)
+    Metadata: {"vehicle_type": "xe máy", "version": "168/2024", "violation_id": "D168-A7-C7-Pc"}
+  Rank 10: D168-A6-C4-Pd (similarity: 0.8413)
+    Metadata: {"version": "168/2024", "violation_id": "D168-A6-C4-Pd", "vehicle_type": "ô tô"}
+
+
+Retrieval: Found 10 candidates
+✓ Expected violation at rank 1 with similarity 0.8617
+
+
+--- SYSTEM RESPONSE ---
+Retrieved Violation ID: D168-A7-C9-Pc
+Match: ✓ CORRECT
+Response Time: 8.12s
+Answer: Hành vi **gây tai nạn giao thông mà không dừng lại, không giữ nguyên hiện trường, không trợ giúp người bị nạn và không trình báo ngay cho cơ quan công an** là vi phạm nghiêm trọng theo quy định của pháp luật.
+
+**Mức phạt áp dụng cho tài xế lái xe máy**  
+- **Phạt tiền:** từ 8.000.000 đồng đến 10.000.000 đồng.  
+- **Trừ điểm bằng lái:** 6 điểm (từ tổng 12 điểm).
+
+**Căn cứ pháp lý**  
+- Điều 7, Khoản 9, Điểm c, Nghị định 168/2024/NĐ‑CP quy định rõ các hình thức xử phạt đối với hành vi trên.
+
+**Hình phạt bổ sung**  
+- Khi bị trừ 6 điểm, nếu số điểm còn lại dưới mức quy định (dưới 6 điểm), giấy phép lái xe sẽ bị tạm thu và người lái phải tham gia lại các lớp học lý thuyết và thực hành, sau đó làm lại kỳ thi để được cấp lại GPLX.
+
+**Đối tượng áp dụng**  
+- Tất cả tài xế điều khiển xe máy gây ra tai nạn và không thực hiện các nghĩa vụ: dừng lại, giữ nguyên hiện trường, hỗ trợ người bị thương, và trình báo kịp thời cho cơ quan công an hoặc UBND nơi gần nhất.
+
+Vì vậy, nếu gặp phải tình huống này, tài xế phải ngay lập tức dừng xe, bảo vệ hiện trường, hỗ trợ nạn nhân và báo cáo cho cơ quan công an để tránh những hình phạt nặng nề trên.
+Citation: Điểm Điểm c, Khoản Khoản 9, Điều Điều 7, Nghị định 168/2024/NĐ-CP
+Fine: 8,000,000.0 - 10,000,000.0 VND
+Legal Basis: 168/2024/NĐ-CP - Article Điều 7, Clause Khoản 9, Point Điểm c
+
+
+Intermediate Stats (after 50 tests):
+  Accuracy: 68.00% (34/50)
+  Retrieval Success: 45/50
+
+
+================================================================================
+FINAL TEST SUMMARY
+================================================================================
+
+Test Run: 2025-11-28T19:10:50.524435
+Total Tests: 50
+
+--- OVERALL PERFORMANCE ---
+Exact Match Accuracy: 68.0% (34/50)
+Retrieval Success Rate: 90.0% (45/50)
+Average Response Time: 7.56s
+Total Test Time: 378.19s
+
+--- RETRIEVAL METRICS ---
+Mean Reciprocal Rank (MRR): 0.6095
+Recall@1: 42.0%
+Recall@3: 76.0%
+Recall@5: 80.0%
+================================================================================
+

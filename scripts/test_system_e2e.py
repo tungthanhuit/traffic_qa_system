@@ -40,7 +40,7 @@ logger = logging.getLogger(__name__)
 class SystemE2ETester:
     """End-to-end system tester"""
     
-    def __init__(self, container: Container):
+    def __init__(self, container: Container, log_file: Optional[str] = None):
         """Initialize with dependency injection container"""
         self.container = container
         self.ask_question_use_case = container.ask_question_use_case()
@@ -51,6 +51,22 @@ class SystemE2ETester:
         self.embedding_service = container.embed_adapter()
         self.llm_service = container.llm_adapter()
         
+        # Setup log file
+        self.log_file = log_file
+        if self.log_file:
+            # Create/clear log file and write header
+            with open(self.log_file, 'w', encoding='utf-8') as f:
+                f.write("="*80 + "\n")
+                f.write("END-TO-END SYSTEM TEST LOG\n")
+                f.write(f"Started at: {datetime.now().isoformat()}\n")
+                f.write("="*80 + "\n\n")
+        
+    def log_to_file(self, message: str):
+        """Write message to log file in real time"""
+        if self.log_file:
+            with open(self.log_file, 'a', encoding='utf-8') as f:
+                f.write(message + "\n")
+    
     def get_retrieval_candidates(
         self, 
         question: str, 
@@ -100,13 +116,16 @@ class SystemE2ETester:
             Dict with test results and metrics
         """
         test_id = test_case.get('test_id')
-        question = test_case.get('question')
+        question = test_case.get('question', '')
         expected_violation_id = test_case.get('violation_id')
         
-        logger.info(f"\n{'='*80}")
-        logger.info(f"Testing {test_id}")
-        logger.info(f"Question: {question}")
-        logger.info(f"Expected Violation ID: {expected_violation_id}")
+        log_msg = f"\n{'='*80}\n"
+        log_msg += f"Testing {test_id}\n"
+        log_msg += f"Question: {question}\n"
+        log_msg += f"Expected Violation ID: {expected_violation_id}\n"
+        
+        logger.info(log_msg)
+        self.log_to_file(log_msg)
         
         start_time = time.time()
         
@@ -119,6 +138,17 @@ class SystemE2ETester:
             if track_retrieval:
                 retrieval_candidates = self.get_retrieval_candidates(question, top_k=10)
                 
+                # Log all retrieval candidates
+                candidates_log = f"\n--- RETRIEVAL CANDIDATES ---\n"
+                candidates_log += f"Total candidates found: {len(retrieval_candidates)}\n"
+                for idx, (vid, similarity, metadata) in enumerate(retrieval_candidates):
+                    candidates_log += f"  Rank {idx + 1}: {vid} (similarity: {similarity:.4f})\n"
+                    if metadata:
+                        candidates_log += f"    Metadata: {json.dumps(metadata, ensure_ascii=False)}\n"
+                
+                logger.info(candidates_log)
+                self.log_to_file(candidates_log)
+                
                 # Check if expected violation is in candidates
                 for idx, (vid, similarity, metadata) in enumerate(retrieval_candidates):
                     if vid == expected_violation_id:
@@ -126,11 +156,14 @@ class SystemE2ETester:
                         expected_similarity = similarity
                         break
                 
-                logger.info(f"Retrieval: Found {len(retrieval_candidates)} candidates")
+                rank_msg = f"\nRetrieval: Found {len(retrieval_candidates)} candidates\n"
                 if expected_rank > 0:
-                    logger.info(f"Expected violation at rank {expected_rank} with similarity {expected_similarity:.4f}")
+                    rank_msg += f"✓ Expected violation at rank {expected_rank} with similarity {expected_similarity:.4f}\n"
                 else:
-                    logger.warning(f"Expected violation NOT in top-{len(retrieval_candidates)} candidates!")
+                    rank_msg += f"✗ Expected violation NOT in top-{len(retrieval_candidates)} candidates!\n"
+                
+                logger.info(rank_msg)
+                self.log_to_file(rank_msg)
             
             # Run through complete system
             response: QueryResponse = self.ask_question_use_case.execute(question)
@@ -145,9 +178,25 @@ class SystemE2ETester:
             # Check if match
             exact_match = retrieved_violation_id == expected_violation_id
             
-            logger.info(f"Retrieved Violation ID: {retrieved_violation_id}")
-            logger.info(f"Match: {'✓ CORRECT' if exact_match else '✗ INCORRECT'}")
-            logger.info(f"Response Time: {elapsed_time:.2f}s")
+            result_msg = f"\n--- SYSTEM RESPONSE ---\n"
+            result_msg += f"Retrieved Violation ID: {retrieved_violation_id}\n"
+            result_msg += f"Match: {'✓ CORRECT' if exact_match else '✗ INCORRECT'}\n"
+            result_msg += f"Response Time: {elapsed_time:.2f}s\n"
+            result_msg += f"Answer: {response.answer}\n"
+            if response.citation:
+                result_msg += f"Citation: {response.citation}\n"
+            if response.fine:
+                result_msg += f"Fine: {response.fine.min_amount:,} - {response.fine.max_amount:,} VND\n"
+            if response.legal_basis:
+                result_msg += f"Legal Basis: {response.legal_basis.decree} - Article {response.legal_basis.article}"
+                if response.legal_basis.clause:
+                    result_msg += f", Clause {response.legal_basis.clause}"
+                if response.legal_basis.point:
+                    result_msg += f", Point {response.legal_basis.point}"
+                result_msg += "\n"
+            
+            logger.info(result_msg)
+            self.log_to_file(result_msg)
             
             # Build result
             result = {
@@ -166,12 +215,13 @@ class SystemE2ETester:
                     'expected_rank': expected_rank if expected_rank > 0 else None,
                     'expected_similarity': round(expected_similarity, 4) if expected_rank > 0 else None,
                     'total_candidates': len(retrieval_candidates),
-                    'top_5_candidates': [
+                    'all_candidates': [
                         {
                             'violation_id': vid,
-                            'similarity': round(sim, 4)
+                            'similarity': round(sim, 4),
+                            'metadata': metadata
                         }
-                        for vid, sim, _ in retrieval_candidates[:5]
+                        for vid, sim, metadata in retrieval_candidates
                     ]
                 }
             }
@@ -195,7 +245,10 @@ class SystemE2ETester:
             return result
             
         except Exception as e:
-            logger.error(f"Error testing {test_id}: {e}", exc_info=True)
+            error_msg = f"\n✗ ERROR testing {test_id}: {e}\n"
+            logger.error(error_msg, exc_info=True)
+            self.log_to_file(error_msg)
+            
             elapsed_time = time.time() - start_time
             
             return {
@@ -213,7 +266,7 @@ class SystemE2ETester:
                     'expected_rank': None,
                     'expected_similarity': None,
                     'total_candidates': 0,
-                    'top_5_candidates': []
+                    'all_candidates': []
                 }
             }
     
@@ -232,9 +285,12 @@ class SystemE2ETester:
         Returns:
             Dict with all results and metrics
         """
-        logger.info("="*80)
-        logger.info("STARTING END-TO-END SYSTEM TEST")
-        logger.info("="*80)
+        start_msg = "="*80 + "\n"
+        start_msg += "STARTING END-TO-END SYSTEM TEST\n"
+        start_msg += "="*80 + "\n"
+        
+        logger.info(start_msg)
+        self.log_to_file(start_msg)
         
         # Load test cases
         with open(test_file_path, 'r', encoding='utf-8') as f:
@@ -242,9 +298,13 @@ class SystemE2ETester:
         
         if max_tests:
             test_cases = test_cases[:max_tests]
-            logger.info(f"Running first {max_tests} tests only")
+            limit_msg = f"Running first {max_tests} tests only\n"
+            logger.info(limit_msg)
+            self.log_to_file(limit_msg)
         
-        logger.info(f"Loaded {len(test_cases)} test cases")
+        load_msg = f"Loaded {len(test_cases)} test cases\n"
+        logger.info(load_msg)
+        self.log_to_file(load_msg)
         
         # Run tests
         results = []
@@ -253,7 +313,10 @@ class SystemE2ETester:
         total_time = 0
         
         for i, test_case in enumerate(test_cases):
-            logger.info(f"\nProgress: {i+1}/{len(test_cases)}")
+            progress_msg = f"\n{'='*80}\nProgress: {i+1}/{len(test_cases)}\n{'='*80}"
+            logger.info(progress_msg)
+            self.log_to_file(progress_msg)
+            
             result = self.test_single_question(test_case)
             results.append(result)
             
@@ -264,6 +327,13 @@ class SystemE2ETester:
                 retrieval_successes += 1
             
             total_time += result['response_time_seconds']
+            
+            # Log intermediate summary
+            current_accuracy = (exact_matches / (i + 1) * 100) if i > 0 else (100 if exact_matches else 0)
+            intermediate_msg = f"\nIntermediate Stats (after {i+1} tests):\n"
+            intermediate_msg += f"  Accuracy: {current_accuracy:.2f}% ({exact_matches}/{i+1})\n"
+            intermediate_msg += f"  Retrieval Success: {retrieval_successes}/{i+1}\n"
+            self.log_to_file(intermediate_msg)
         
         # Calculate metrics
         total = len(results)
@@ -310,6 +380,28 @@ class SystemE2ETester:
             'results': results
         }
         
+        # Log final summary to file
+        final_summary = "\n" + "="*80 + "\n"
+        final_summary += "FINAL TEST SUMMARY\n"
+        final_summary += "="*80 + "\n"
+        final_summary += f"\nTest Run: {summary['test_info']['timestamp']}\n"
+        final_summary += f"Total Tests: {summary['test_info']['total_tests']}\n"
+        final_summary += f"\n--- OVERALL PERFORMANCE ---\n"
+        final_summary += f"Exact Match Accuracy: {summary['overall_metrics']['exact_match_accuracy']}% "
+        final_summary += f"({summary['overall_metrics']['exact_matches']}/{summary['test_info']['total_tests']})\n"
+        final_summary += f"Retrieval Success Rate: {summary['overall_metrics']['retrieval_success_rate']}% "
+        final_summary += f"({summary['overall_metrics']['retrieval_successes']}/{summary['test_info']['total_tests']})\n"
+        final_summary += f"Average Response Time: {summary['overall_metrics']['avg_response_time_seconds']}s\n"
+        final_summary += f"Total Test Time: {summary['overall_metrics']['total_time_seconds']}s\n"
+        final_summary += f"\n--- RETRIEVAL METRICS ---\n"
+        final_summary += f"Mean Reciprocal Rank (MRR): {summary['retrieval_metrics']['mean_reciprocal_rank']}\n"
+        final_summary += f"Recall@1: {summary['retrieval_metrics']['recall_at_1']}%\n"
+        final_summary += f"Recall@3: {summary['retrieval_metrics']['recall_at_3']}%\n"
+        final_summary += f"Recall@5: {summary['retrieval_metrics']['recall_at_5']}%\n"
+        final_summary += "="*80 + "\n"
+        
+        self.log_to_file(final_summary)
+        
         return summary
     
     def print_summary(self, summary: Dict):
@@ -355,7 +447,7 @@ class SystemE2ETester:
                     logger.info(f"  Note: Expected violation NOT in retrieval candidates")
                 
                 # Show what was retrieved instead
-                top_candidates = result['retrieval_metrics'].get('top_5_candidates', [])
+                top_candidates = result['retrieval_metrics'].get('all_candidates', [])[:5]
                 if top_candidates:
                     logger.info(f"  Top candidate: {top_candidates[0]['violation_id']} (sim: {top_candidates[0]['similarity']})")
             
@@ -401,12 +493,19 @@ def main():
         default='data/e2e_test_results.json',
         help='Output file path (default: data/e2e_test_results.json)'
     )
+    parser.add_argument(
+        '--log',
+        type=str,
+        default='data/e2e_test_log.txt',
+        help='Log file path for real-time logging (default: data/e2e_test_log.txt)'
+    )
     
     args = parser.parse_args()
     
     # Paths
     test_file = project_root / "data" / "violations_test.json"
     output_file = project_root / args.output
+    log_file = project_root / args.log
     
     # Check if test file exists
     if not test_file.exists():
@@ -422,8 +521,9 @@ def main():
         logger.error("Please check your .env configuration")
         return
     
-    # Create tester
-    tester = SystemE2ETester(container)
+    # Create tester with log file
+    tester = SystemE2ETester(container, log_file=str(log_file))
+    logger.info(f"Real-time logging to: {log_file}")
     
     # Run tests
     try:
@@ -444,6 +544,7 @@ def main():
         json.dump(summary, f, ensure_ascii=False, indent=2)
     
     logger.info(f"\nResults saved to: {output_file}")
+    logger.info(f"Detailed log saved to: {log_file}")
     
     # Also save a CSV for easy analysis
     csv_file = output_file.with_suffix('.csv')

@@ -1,0 +1,51 @@
+test_id,question,expected_violation_id,retrieved_violation_id,exact_match,expected_rank,expected_similarity,response_time_seconds
+TEST_001,Chạy xe ô tô mà không để ý biển báo cấm thì bị phạt bao nhiêu tiền?,D168-A6-C1-Pa,D168-A6-C1-Pa,True,1,0.8789,6.84
+TEST_002,Lái xe máy không đội mũ bảo hiểm thì phạt bao nhiêu?,D168-A7-C2-Ph,D168-A7-C2-Ph,True,1,0.8887,7.4
+TEST_003,Đỗ xe ô tô giữa đường không bật đèn khẩn cấp bị phạt thế nào?,D168-A6-C1-Pc,D168-A6-C1-Pb,False,3,0.863,7.34
+TEST_004,"Xe máy chạy vào đường cao tốc có bị phạt không, phạt bao nhiêu?",D168-A7-C7-Pb,D168-A7-C7-Pb,True,2,0.8526,6.74
+TEST_005,Bấm còi ô tô lúc 11h đêm trong khu dân cư bị phạt bao nhiêu?,D168-A6-C1-Pđ,D168-A6-C1-Pđ,True,2,0.8675,7.32
+TEST_006,Chở 3 người trên xe máy có bị phạt không?,D168-A7-C3-Pb,D168-A7-C3-Pb,True,1,0.8824,48.31
+TEST_007,Chuyển làn ô tô mà không bật xi-nhan thì phạt bao nhiêu?,D168-A6-C2-Pa,D168-A6-C2-Pa,True,4,0.8455,6.48
+TEST_008,Xe máy vượt đèn đỏ bị phạt bao nhiêu tiền hiện nay 2025?,D168-A7-C7-Pc,D168-A7-C7-Pc,True,2,0.8759,7.18
+TEST_009,Đỗ xe ô tô sát vỉa hè quá 25cm bị phạt không?,D168-A6-C3-Pe,D168-A6-C3-Pe,True,1,0.8735,7.62
+TEST_010,Lái xe máy có nồng độ cồn chút xíu thôi có bị phạt nặng không?,D168-A7-C6-Pa,D168-A7-C6-Pa,True,2,0.8843,7.01
+TEST_011,Ô tô chạy quá tốc độ 7km/h thì phạt bao nhiêu?,D168-A6-C3-Pa,D168-A6-C5-Pđ,False,6,0.8732,6.08
+TEST_012,Xe máy lạng lách đánh võng trên đường bị phạt thế nào?,D168-A7-C9-Pa,D168-A7-C9-Pa,True,1,0.8834,7.56
+TEST_013,Không thắt dây an toàn khi lái ô tô bị phạt bao nhiêu?,D168-A6-C3-Pk,D168-A6-C3-Pk,True,1,0.9106,7.18
+TEST_014,Rú ga nẹt pô xe máy trong khu dân cư lúc nửa đêm thì sao?,D168-A7-C9-Pk,D168-A7-C2-Pk,False,1,0.8185,7.37
+TEST_015,Đỗ xe ô tô che khuất đèn giao thông bị phạt mức nào?,D168-A6-C3-Pđ,D168-A6-C1-Pc,False,4,0.8503,7.39
+TEST_016,Lái xe máy mà trong người có ma túy thì bị phạt ra sao?,D168-A7-C9-Pe,D168-A7-C9-Pe,True,1,0.8781,7.53
+TEST_017,Chở người ngồi sau ôm eo người lái có bị phạt không?,D168-A6-C3-Pl,D168-A7-C3-Pb,False,7,0.8562,8.91
+TEST_018,Xe máy chạy quá tốc độ hơn 20km/h bị phạt bao nhiêu?,D168-A7-C8-Pa,D168-A7-C8-Pa,True,1,0.9265,6.86
+TEST_019,Kéo xe khác bằng ô tô mà không gắn biển báo hiệu thì phạt thế nào?,D168-A6-C1-Pd,D168-A6-C1-Pd,True,1,0.8836,6.85
+TEST_020,Gây tai nạn xe máy rồi bỏ chạy không cứu người bị phạt bao nhiêu?,D168-A7-C9-Pc,D168-A7-C9-Pc,True,1,0.8605,7.29
+TEST_021,Chở bé dưới 10 tuổi ngồi ghế trước ô tô có bị phạt không?,D168-A6-C3-Pm,D168-A6-C3-Pm,True,2,0.8736,7.86
+TEST_022,Không chấp hành hiệu lệnh của CSGT khi lái xe máy thì phạt nặng không?,D168-A7-C7-Pd,D168-A7-C7-Pd,True,6,0.8829,7.06
+TEST_023,Ô tô đỗ trên miệng cống thoát nước bị phạt bao nhiêu tiền?,D168-A6-C3-Pe,D168-A6-C5-Pk,False,2,0.83,6.77
+TEST_024,Uống rượu bia lái xe máy thổi nồng độ cồn vượt quá 0.4mg/l thì bị gì?,D168-A7-C9-Pd,D168-A7-C9-Pd,True,2,0.9,9.08
+TEST_025,Quên bật đèn pha ô tô lúc trời mưa to tầm nhìn kém bị phạt không?,D168-A6-C3-Pg,D168-A6-C3-Pg,True,,,7.79
+TEST_026,Từ chối thổi nồng độ cồn khi bị CSGT yêu cầu trên xe máy thì sao?,D168-A7-C9-Pđ,D168-A7-C9-Pđ,True,2,0.8862,10.46
+TEST_027,Chở người ngồi sau xe máy vòng tay qua người lái để điều khiển bị phạt thế nào?,D168-A7-C9-Ph,D168-A7-C3-Pb,False,1,0.8848,7.38
+TEST_028,Ô tô chạy trong hầm mà bật đèn chiếu xa bị phạt bao nhiêu?,D168-A6-C3-Pn,D168-A6-C3-Pn,True,1,0.9049,6.82
+TEST_029,Nhóm 3-4 xe máy chạy thành đoàn rú ga gây cản trở giao thông bị phạt ra sao?,D168-A7-C9-Pi,D168-A7-C9-Pb,False,3,0.8562,8.68
+TEST_030,Không nhường đường cho xe cứu thương đang hú còi trên xe máy thì phạt bao nhiêu?,D168-A7-C7-Pđ,D168-A7-C1-Pđ,False,2,0.863,7.16
+TEST_031,Đỗ ô tô ngược chiều với dòng xe đang lưu thông bị phạt mức nào?,D168-A6-C2-Pd,D168-A6-C5-Pc,False,6,0.8596,7.79
+TEST_032,Gây tai nạn giao thông vì chạy quá tốc độ trên xe máy thì phạt thế nào?,D168-A7-C10-Pa,D168-A7-C8-Pa,False,,,28.18
+TEST_033,Ô tô kéo xe khác mà chở thêm người trên xe được kéo bị phạt bao nhiêu?,D168-A6-C3-Pi,D168-A6-C3-Pi,True,1,0.9066,7.98
+TEST_034,Chuyển hướng xe ô tô mà không bật xi-nhan và không giảm tốc độ bị gì?,D168-A6-C3-Pc,D168-A6-C5-Po,False,,,7.8
+TEST_035,Từ chối kiểm tra ma túy khi bị CSGT yêu cầu trên xe máy thì phạt ra sao?,D168-A7-C9-Pg,D168-A7-C9-Pe,False,1,0.8715,8.71
+TEST_036,Đỗ xe ô tô trên phần đường dành cho người đi bộ qua đường bị phạt bao nhiêu?,D168-A6-C2-Pđ,D168-A6-C4-Pd,False,,,7.83
+TEST_037,Chạy xe máy thành nhóm quá tốc độ để đua bị phạt thế nào?,D168-A7-C9-Pb,D168-A7-C9-Pb,True,1,0.892,7.48
+TEST_038,Ô tô dừng xe trên đường ray tàu hỏa bị phạt mức nào?,D168-A6-C3-Pd,D168-A6-C5-Pk,False,2,0.8518,7.09
+TEST_039,Chở quá người trên buồng lái ô tô (ví dụ xe 5 chỗ chở 6 người) bị phạt bao nhiêu?,D168-A6-C2-Pb,D168-A6-C2-Pb,True,1,0.9245,7.2
+TEST_040,Không chấp hành đèn tín hiệu giao thông khi lái ô tô bị phạt ra sao?,D168-A6-C9-Pb,D168-A6-C9-Pb,True,3,0.9008,6.97
+TEST_041,Đi xe máy mà trong máu có chất ma túy thì bị xử lý thế nào?,D168-A7-C9-Pe,D168-A7-C9-Pe,True,1,0.8775,8.41
+TEST_042,Ô tô đỗ xe trên dốc mà không chèn bánh bị phạt bao nhiêu tiền?,D168-A6-C2-Pd,D168-A6-C1-Pb,False,1,0.8699,8.1
+TEST_043,Không tuân thủ hiệu lệnh của CSGT khi lái ô tô thì phạt nặng không?,D168-A6-C9-Pc,D168-A6-C9-Pc,True,3,0.8848,8.26
+TEST_044,Lái xe máy say xỉn thổi nồng độ cồn cao nhất thì bị tước bằng bao lâu?,D168-A7-C9-Pd,D168-A7-C8-Pb,False,6,0.8508,10.13
+TEST_045,Đỗ xe ô tô ngay trước cổng cơ quan nhà nước bị phạt thế nào?,D168-A6-C3-Pđ,D168-A6-C5-Pk,False,,,19.68
+TEST_046,Chạy xe máy nhóm đông gây cản trở giao thông mà không có phép thì sao?,D168-A7-C9-Pi,D168-A7-C9-Pi,True,1,0.8905,8.89
+TEST_047,Ô tô kéo rơ-moóc mà không nối chắc chắn bị phạt bao nhiêu?,D168-A6-C3-Ph,D168-A6-C3-Ph,True,1,0.8834,6.64
+TEST_048,Không nhường đường ở ngã tư khi lái ô tô bị phạt mức nào?,D168-A6-C2-Pc,D168-A6-C2-Pc,True,2,0.8862,7.53
+TEST_049,Lái xe máy quẹt chân chống xuống đường khi đang chạy bị phạt ra sao?,D168-A7-C9-Pa,D168-A7-C2-Pc,False,1,0.8482,7.3
+TEST_050,Gây tai nạn rồi bỏ trốn không trình báo công an khi lái xe máy thì phạt thế nào?,D168-A7-C9-Pc,D168-A7-C9-Pc,True,1,0.8617,7.79

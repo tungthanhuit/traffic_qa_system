@@ -12,6 +12,8 @@
 
 - python -m src.main
 
+- python run_gradio_demo.py
+
 ## Project Desciptions and Requirements
 
 ### Mục tiêu

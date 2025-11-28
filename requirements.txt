@@ -20,3 +20,6 @@ dependency-injector
 # Configuration and Data Models
 pydantic
 pydantic-settings
+
+# Gradio for Web App
+gradio==5.50.0
